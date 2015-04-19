@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Date, Time & Templates</title>
+</head>
+    <style>
+        span{ display: block; }
+    </style>
+<body>
+
+<h1>Dates, Times & Templates</h1>
+<h2>The now keyword</h2>
+It is: {% now "c"  %}
+
+<h2>Any date formatter can be used</h2>
+{# Can take any formatters defined for date#}
+{# https://docs.djangoproject.com/en/1.7/ref/templates/builtins/#std:templatefilter-date#}
+It is {% now "f A jS \o\f F Y " %}
+
+<h2>Predefined Formats</h2>
+<ul>
+    <li>
+        {% now "DATE_FORMAT" %}
+    </li>
+    <li>
+        {% now "DATETIME_FORMAT" %}
+    </li>
+    <li>
+        {% now "SHORT_DATE_FORMAT" %}
+    </li>
+    <li>
+        {% now "SHORT_DATETIME_FORMAT" %}
+    </li>
+</ul>
+
+<h2>The date and time filter</h2>
+    {{ when|date:"D d M Y" }} {{ when|time:"H:i" }}
+
+
+<h2>The time since and time until</h2>
+<span>
+    {{ yesterday }} since {{ when }} = {{ yesterday|timesince:when}}
+</span>
+<span>
+    {{ when }} until {{ tomorrow }} = {{ when|timesince:tomorrow}}
+</span>
+</body>
+</html>

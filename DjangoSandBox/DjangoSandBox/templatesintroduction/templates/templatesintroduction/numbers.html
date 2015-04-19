@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Numbers & Templates</title>
+    <style>
+        span{ display: block; }
+    </style>
+</head>
+<body>
+
+<h1>Numbers & Templates</h1>
+
+
+<h2>Sizing with widthratio</h2>
+<span>
+    The width is: {% widthratio 50 100 100 %}
+</span>
+<span>
+    {% widthratio 50 100 100 as width %}
+    The width is: {{ width }}
+</span>
+
+
+<h2>Is non-remainder division with divisibleby</h2>
+<span>
+    Is 21 dividable by 3? = {{ 21|divisibleby:"3" }}
+</span>
+<span>
+    Is 21 dividable by 5? = {{ 21|divisibleby:"5" }}
+</span>
+
+<h2>File Size formats with filesizeformat</h2>
+<span>
+    {{ 1|filesizeformat }}
+</span>
+<span>
+    {{ 1024|filesizeformat }}
+</span>
+<span>
+    {{ 1048576|filesizeformat }}
+</span>
+<span>
+    {{ 1073741824|filesizeformat }}
+</span>
+
+
+<h2>Formatting floats with floatforma</h2>
+<span>
+    11.1111 to 3dp = {{ 11.1111|floatformat:"3" }}
+</span>
+<span>
+    11.1111 to 0dp = {{ 11.1111|floatformat:"0" }}
+</span>
+<span>
+    11.1111 to -3dp = {{ 11.1111|floatformat:"-3" }}
+</span>
+<span>
+    11.1000 to -3dp = {{ 11.1111|floatformat:"3" }}
+</span>
+
+<h2>Numbers as an array with get_digit</h2>
+<span>
+    123456789[2]= {{ 123456789|get_digit:"2" }}
+</span>
+
+<h2>Displaying telephone numbers with phone2numeric</h2>
+<span>
++44 1752 319433 becomes{{ "+44 1752 319433"|phone2numeric }}
+</span>
+<span>
++44 1752 HELLO becomes{{ "+44 1752 HELLO"|phone2numeric }}
+</span>
+
+<h2>Addition with the add tag</h2>
+<ul>
+    <li>
+        2 + 1 = {{ 2|add:1 }}
+    </li>
+    <li>
+        '2' + '1' = {{ '2'|add:'1' }}
+    </li>
+    <li>
+        'a' + 'b' = {{ 'a'|add:'b' }}
+    </li>
+    <li>
+        {{ onetwo }} + {{ onetwo }} = {{ onetwo|add:onetwo }}
+    </li>
+</ul>
+</body>
+</html>

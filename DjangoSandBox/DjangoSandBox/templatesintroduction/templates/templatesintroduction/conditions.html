@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Conditions & Templates</title>
+     <style>
+        span{ display: block; }
+    </style>
+</head>
+<body>
+
+<h1>Conditions & Templates</h1>
+
+<h2>The if, elif, else & endif tags</h2>
+<span>
+    {% if age < 50 %}
+        Less than 50
+    {% elif age == 50 %}
+        Equal to 50
+    {% else  %}
+        The else clause
+    {% endif %}
+</span>
+
+<h2>The and & or tags</h2>
+<span>
+    {% if age < 50 and age > 10 %}
+        Less than 50 but more than 10
+    {% elif age == 50 or age == 51 %}
+        Equal to 50
+    {% else  %}
+        The else clause
+    {% endif %}
+</span>
+
+<h2>The not tag</h2>
+<span>
+    {%  if not false %}
+        Not False
+    {% endif %}
+</span>
+
+<h2>The in & not in tags</h2>
+<span>
+    {%  if 1 in numbers%}
+        1 is in {{  numbers }}
+    {% endif %}
+</span>
+<span>
+    {%  if 11 not in numbers%}
+        11 is not in {{  numbers }}
+    {% endif %}
+</span>
+
+
+<h2>The ifequal, else endifequal tags</h2>
+<span>
+    {% ifequal valueone valueone%}
+        {{ valueone }} and {{ valueone }} are equal
+    {% else %}
+        {{ valueone }} and {{ valueone }} are not equal
+    {% endifequal %}
+</span>
+
+
+<h2>The ifnotequal, else endifnotequal tags</h2>
+<span>
+    {% ifnotequal valueone valuetwo%}
+        {{ valueone }} and {{ valuetwo }} are not equal
+    {% else %}
+        {{ valueone }} and {{ valuetwo }} are equal
+    {% endifnotequal %}
+</span>
+
+<h2>The firstof tag outputs the first true (non zero) element</h2>
+<span>
+    {#Can take booleans and ints#}
+    {% firstof 0 0 0 1 "All were false"  %}
+    {% firstof 0 0 0 0 "All were false"  %}
+</span>
+
+<h2>Filters allow piping results through multiple tags</h2>
+<span>
+    {% filter lower|capfirst %}This text will be HTML-escaped.{% endfilter %}
+</span>
+
+<span>
+    {#Filters cab be used with other tags#}
+    {% if numbers|length >= 5 %}
+        There are more than five numbers!
+    {% endif %}
+</span>
+
+<h2>Variables with the with tag</h2>
+{% with count=10 %}
+    There are {{ count }} item{{ 2|pluralize }}
+{% endwith %}
+
+<h2>Parenthesis is not supported within templates so you must rely on operator precedence</h2>
+<span>
+    The precedence is the same as python: or, and, not, in, ==, !=, <, >, <=, >=
+</span>
+</body>
+</html>

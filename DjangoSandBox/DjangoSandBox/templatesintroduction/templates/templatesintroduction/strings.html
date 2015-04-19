@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Strings & Templates</title>
+     <style>
+        span{ display: block; }
+    </style>
+</head>
+<body>
+
+<h1>Strings & Templates</h1>
+
+<h2>Outputting Variables</h2>
+<span>Variables are outputted with {{ who }}</span>
+
+
+<h2>The uppercase, lowercase, capitalised and title tags</h2>
+<table>
+    <thead>
+        <tr>
+            <th>lower</th>
+            <th>upper</th>
+            <th>capfirst</th>
+            <th>title</th>
+        </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <td>
+            {{ who | lower }}
+        </td>
+        <td>
+            {{ who | upper }}
+        </td>
+        <td>
+            {{ who | capfirst }}
+        </td>
+        <td>
+            {{ who | title }}
+        </td>
+    </tr>
+    </tbody>
+</table>
+
+
+<h2>Escaping with addslashes</h2>
+<span>
+    {{ "Simon's slashes"|addslashes }}
+</span>
+
+
+<h2>Space padding with ljust, center & rjust</h2>
+<span>
+    "{{ "Hello"|ljust:20 }}"
+</span>
+<span>
+    "{{ "Hello"|center:20 }}"
+</span>
+<span>
+    "{{ "Hello"|rjust:20 }}"
+</span>
+
+
+<h2>Replacing with cut</h2>
+<span>
+    "{{ "Hello"|cut:"el" }}"
+</span>
+
+
+<h2>Providing a default value</h2>
+<ul>
+    <li>
+        {{ NotProvided|default:"Nothing was provided here!!!" }}
+    </li>
+    <li>
+        {{ False|default:"There value was false!" }}
+    </li>
+    <li>
+        {{ None|default_if_none:"Only displayed if this is None" }}
+    </li>
+</ul>
+
+
+<h2>The pluralize tags</h2>
+<ul>
+    <li>
+        The plural of colour is colour{{ colours|pluralize }}.
+    </li>
+    <li>
+        The plural of colour is colour{{ 2 | pluralize }}.
+    </li>
+    <li>
+     The plural of person is pe{{ 2|pluralize:"erson,ople"}}.
+    </li>
+</ul>
+
+
+<h2>Truncating long messages </h2>
+<table>
+    <thead>
+    <tr>
+        <th>truncatechars</th>
+        <th>truncatechars_html</th>
+        <th>truncatewords</th>
+        <th>truncatewords_html</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <td>
+            {{ longmessage|truncatechars:20 }}
+        </td>
+        <td>
+        {{ longboldmessage|truncatechars_html:20 }}
+        </td>
+        <td>
+            {{ longmessage|truncatewords:3 }}
+        </td>
+        <td>
+            {#Automatically closes any html tags which would have been removed#}
+            {{ longboldmessage|truncatewords_html:3 }}
+        </td>
+    </tr>
+    </tbody>
+</table>
+
+
+<h2>The spaceless tag compresses html</h2>
+{% spaceless %}
+    <span>
+    <b>
+        <i>
+            This is some text
+        </i>
+    </b>
+    </span>
+{% endspaceless %}
+
+
+<h2>The templatetag allows outputting reserved symbols </h2>
+<ul>
+    <li>
+        {% templatetag openblock %} {% templatetag closeblock %}
+    </li>
+    <li>
+        {% templatetag openvariable %} {% templatetag closevariable %}
+    </li>
+    <li>
+        {% templatetag openbrace%} {% templatetag closebrace %}
+    </li>
+    <li>
+        {% templatetag opencomment %} {% templatetag closecomment %}
+    </li>
+</ul>
+
+
+<h2>The verbatim is the raw or @ of template strings</h2>
+{% verbatim %}
+    {{this will output}}{%  as it nothing has happened %}
+{% endverbatim %}
+
+
+<h2>Breaking lines with linebreaks and linebreaksbr</h2>
+<span>
+    {{ messagewithnewlines|linebreaks }}
+</span>
+<span>
+    {{ messagewithnewlines|linebreaksbr }}
+</span>
+
+
+<h2>Adding word wrap</h2>
+<span>
+    {#This does not seem to work for me#}
+    {{ longmessage|wordwrap:5 }}
+</span>
+
+
+<h2>Adding line numbers</h2>
+<span>
+    {{ messagewithnewlines|linenumbers|linebreaks }}
+</span>
+
+
+<h2>Number Count</h2>
+There are {{ longmessage|wordcount }} words in "{{ longmessage }}"
+
+
+<h2>Python string formatting with the stringformat tag</h2>
+{#https://docs.python.org/2/library/stdtypes.html#string-formatting-operations#}
+<ul>
+    <li>
+        {{ 1234.567|stringformat:"E" }}
+    </li>
+    <li>
+        {{ 1234.567|stringformat:"F" }}
+    </li>
+    <li>
+        {{ 1234.567|stringformat:"d" }}
+    </li>
+</ul>
+
+
+<h2>Outputting booleans</h2>
+<ul>
+    <li>
+        {{ False|yesno:"yeah,no,maybe" }}
+    </li>
+    <li>
+        {{ True|yesno:"yeah,no,maybe" }}
+    </li>
+    <li>
+        {{ None|yesno:"yeah,no,maybe" }}
+    </li>
+    <li>
+        {{ None|yesno:"yeah,no" }}
+    </li>
+</ul>
+</body>
+</html>
