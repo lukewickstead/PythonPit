@@ -33,6 +33,7 @@ print("Is a_boy an instance of Person?:", isinstance(a_boy, Person))
 print("Is a_person an instance of Boy?:", isinstance(a_person, Boy))
 
 print("\nIsSubClass:")
+# Can not be called on an instance; has to be called on the class type.
 print("Is Boy A SubClass of Boy?:", issubclass(Boy, Boy))
 print("Is Boy A SubClass of Person?:", issubclass(Boy, Person))
 print("Is Person A SubClass of Boy?:", issubclass(Person, Boy))

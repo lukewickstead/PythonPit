@@ -20,8 +20,7 @@
 # in not in	                    Membership operators
 # not or and	                Logical operators
 
-
 # It is bad practice to rely on operator precedence.
 # Use brackets which increases code reliability
-# ( 1 + (2 * 3)  = 1 + 2 * 3
+# 1 + (2 * 3)  = 1 + 2 * 3
 print(1 + (2 * 3),  1 + 2 * 3)

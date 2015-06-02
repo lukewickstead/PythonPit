@@ -5,6 +5,10 @@
 one = 111
 two = 333
 
+print('one: {0:b}'.format(one))
+print('two: {0:b}'.format(two))
+
+
 # & = Each bit at the same ordinal position are performed AND operator
 print('{0:b} & {1:b} = {2:b}'.format(one, two, one & two))
 

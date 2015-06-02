@@ -3,7 +3,7 @@
 # Assignment Operators Example
 
 value = 10
-print("value = 1:", value)          # Assignment
+print("value = 10:", value)          # Assignment
 
 value += 2
 print("value += 2:", value)         # Addition and assignment
