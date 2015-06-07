@@ -28,6 +28,12 @@ print("\n*** For Loop With range()")
 for number in range(10, 20, 3):  # start, stop, step
     print(number)
 
+# Backwards for elements in a descending order
+# for number in range(3, 0, -1):  # start, stop, step
+
+# Only works for integers; the following causes a traceback
+# for number in range(0.1, 0.2, 0.01):  # start, stop, step
+
 # Break, Continue and Else
 print("\n*** Break, Continue & Else")
 for number in range(10):  # 0-9
@@ -39,14 +45,22 @@ for number in range(10):  # 0-9
 else:
     print("else")  # Always runs unless the loop is terminated with a break
 
+print("\n*** Break, Continue & Else 2nd")
+for number in range(10):  # 0-9
+    if number == 0:
+        print(number, "continue")
+        continue
+else:
+    print("else")  # Always runs unless the loop is terminated with a break
+
 
 # Iterate through multiple enumerable at the same time
 print("\n*** zip ")
 numbers = [1, 2, 3]
 words = ['one', 'two', 'three']
-
-for number, word in zip(numbers, words):
-    print('{0} => {1}'.format(number, word))
+letters = ['a', 'b']
+for number, word, letter in zip(numbers, words, letters):
+    print('{0} => {1} => {2}'.format(number, word, letter))
 
 # Reverse an enumerator
 print('\n*** Reversed')
@@ -55,8 +69,12 @@ for i in reversed(range(1, 10, 2)):
 
 # Sort an numerator
 print("\n*** Sorted ")
-basket = ['apple', 'orange', 'apple', 'pear', 'orange', 'banana']
 for f in sorted((5, 2, 3, 7, 6)):
+    print(f)
+
+# Sort an numerator
+print("\n*** Sorted Reversed ")
+for f in sorted((5, 2, 3, 7, 6), reverse=True):
     print(f)
 
 # Key Value Pair Iteration

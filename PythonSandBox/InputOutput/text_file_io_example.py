@@ -20,6 +20,11 @@ text_file = path.join('output', 'output.txt')
 
 data = ["This is a list of strings", "which need to be saved", "into a file"]
 
+# Writing all lines to a file
+print("\nSaving all lines to:", text_file)
+with open(text_file, "w") as f:
+    f.writelines(data)
+
 # Writing to a file
 print("\nSaving to:", text_file)
 with open(text_file, "w") as f:
@@ -37,6 +42,12 @@ print("\nReading line by line from:", text_file)
 with open(text_file, "r") as f:
     for a_line in f:
         print(a_line, end='')  # The file has new line chars also print adds one on by default
+
+
+# Read all lines at the same time stripping \n
+print("\nReading all lines into an array:", text_file)
+lines = [line.rstrip('\n') for line in open(text_file)]
+print(lines)
 
 
 # List can be used to parse a file

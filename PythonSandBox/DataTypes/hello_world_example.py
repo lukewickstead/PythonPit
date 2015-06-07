@@ -44,3 +44,11 @@
 
 value = "Hello"
 print(value)
+
+print(type(value))
+
+value = 1
+print(type(value))
+
+value = True
+print(type(value))

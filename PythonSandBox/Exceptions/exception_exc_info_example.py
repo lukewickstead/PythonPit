@@ -1,7 +1,8 @@
-# exception_exc_infoexample.py
+# exception_exc_info_example.py
 #
 # Exception Exc Info Example
 #
+# sys.exc_info provides a tuple of information about the current exception being raised.
 
 import sys
 

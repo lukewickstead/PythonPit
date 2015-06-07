@@ -8,17 +8,14 @@
 
 def divide(x, y):
     try:
+        print("\nPerforming: {0} / {1}".format(x, y))
         result = x / y
     except ZeroDivisionError:
         print("division by zero!")
     else:
-        print("result is", result)
+        print("Result =", result)
     finally:
-        print("executing finally clause")
+        print("Executing the finally clause")
 
-
-print("1/2:")
 divide(1, 2)
-
-print("\n1/0:")
 divide(1, 0)

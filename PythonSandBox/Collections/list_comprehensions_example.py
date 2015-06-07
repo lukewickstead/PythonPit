@@ -13,11 +13,18 @@ print(list(map(lambda x: x ** 2, range(10))))
 
 # Where multiple enumerators are provided a nested loop is provided;
 # every combination of elements is used to generate the list
-print([(x, y) for x in [1, 2, 3] for y in [10, 11, 12]])
-print([(x, y) for x, y in zip([1, 2, 3], [10, 11, 12])])     # Alternative syntax with zip
+
+print("\n*** Nested For In")
+print([(x, y) for x in [1, 2, 3] for y in [10, 11, 12]])  # All combinations of elements
+
+print("\n*** Zip")
+print([(x, y) for x, y in zip([1, 2, 3], [10, 11, 12])])  # All pairs at the same ordinal position.
+print([(x, y) for x, y in zip([1, 2, 3], [10, 11, 12, 13])])  # Only elements matched will be iterated through.
 
 # Here we restrict x from being even
-print([(x, y) for x in [1, 2, 3] for y in [10, 11, 12] if x % 2 != 0])
+print("\n*** If")
+print([(x, y) for x in [1, 2, 3] for y in [10, 11, 12] if x % 2 == 0 & y % 2 == 0])
 
 # All letters in abcdef whihc are not in cab
+print("\n*** Not In")
 print({x for x in 'abcdef' if x not in 'cab'})

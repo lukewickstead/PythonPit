@@ -4,13 +4,9 @@
 #
 # Last In First Out
 
-numbers = []
+numbers = list(range(10))
 
-for x in range(10):
-    numbers.append(x)
-
-# Remove last element
-print(numbers.pop())
-
-# Remove element at index x
-print(numbers.pop(3))
+print(numbers)
+print(numbers.pop())   # Remove last element
+print(numbers.pop(3))  # Remove element at index x
+print(numbers)

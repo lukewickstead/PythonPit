@@ -23,22 +23,25 @@ optional_argument_method()
 optional_argument_method("Bang!!!")
 
 print("\n*** Default Arguments As Variables")
-# Default values are evaluated when the function is defined. Here i is 5
+# Default values are evaluated when the function is defined. Here x is 5 when the method is compiled, therefore arg
+# will always be 5, regardless of the value of x during runtime.
 
 x = 5
 
 
 def optional_argument_as_a_variable(arg=x):
     global x
-    print("x = {0}, y = {1}".format(x, arg))
+    print("x = {0}, arg = {1}".format(x, arg))
 
 
 x = 6
 optional_argument_as_a_variable()
 
 print("\n*** Default Arguments As A Reference Type")
-# Default parameters are evaluated only once.
-# Here the same reference type is passed when the optional parameter is omitted from the call
+
+# Reiterating the point, this is the same for mutable types; they are only ever created once.
+# Here we assign a list as default value. Every time the method is called without a new_list argument the method is
+# passed in the same list instance which is created during runtime.
 
 
 def optional_argument_as_a_new_list(to_append, new_list=[]):
@@ -81,6 +84,7 @@ def star_and_star_star_method(name, *children, **characteristics):
     print("Name:", name, type(name))
     print("Children:", children, (type(children)))
     print("Characteristics:", characteristics, type(characteristics))
+
 
 star_and_star_star_method("Luke", "Jim,", "Bob", hair="Fair", height="Tall")
 
