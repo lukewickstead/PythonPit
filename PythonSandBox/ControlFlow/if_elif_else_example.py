@@ -11,5 +11,6 @@ def print_condition(value):
     else:
         print("@Else")
 
+
 for x in range(3):
     print_condition(x)

@@ -13,7 +13,7 @@ from Testing.unittest_examples.assertions_example import TestAssertsExample
 
 # Test Suite
 def my_test_suite():
-    suite_one= TestSuite()
+    suite_one = TestSuite()
     suite_one.addTest(MyTestClass('test_add_two_numbers'))
 
     suite_two = TestLoader().loadTestsFromTestCase(TestAssertsExample)

@@ -4,12 +4,13 @@
 #
 # Lambdas are inline, anonymous methods.
 
+
 # Lambda Expression
-def Square():
-    return lambda x: x**2
+def square():
+    return lambda z: z ** 2
 
 # F is now a function
-f = Square()
+f = square()
 print(f)
 
 # Call as if the function is x.
@@ -21,5 +22,4 @@ for x in range(5):
 
 # Map allows converting an converting a collection into another while providing a map between the
 # elements in the old collection and a new one. We can use a lambda expression to achieve this.
-print(list(map(lambda x: x ** 2, range(10))))
-
+print(list(map(lambda y: y ** 2, range(10))))

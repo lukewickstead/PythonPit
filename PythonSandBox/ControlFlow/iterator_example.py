@@ -12,13 +12,11 @@ it = iter("abc")
 print(next(it))
 print(next(it))
 
-
 print("\n*** A Simple Iterator Class")
 # Simply write __iter__ and __next__
 
 
 class MyRangeClass:
-
     def __init__(self, start, stop):
         self.start = start
         self.index = start - 1
@@ -33,6 +31,7 @@ class MyRangeClass:
         self.index += 1
         return self.index
 
+
 for x in MyRangeClass(1, 3):
     print(x)
 
@@ -44,6 +43,7 @@ def count_down(count):
     while count > 0:
         yield count
         count -= 1
+
 
 for x in count_down(3):
     print(x)
