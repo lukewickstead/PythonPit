@@ -19,7 +19,7 @@ def run_timeit_by_lambda():
 
     t = timeit.Timer(lambda: function_to_time(100))
 
-    for number in [100, 200, 300]:
+    for number in [10, 20, 30]:
         print("{0}: {1}".format(number, t.timeit(number=number)))
 
 

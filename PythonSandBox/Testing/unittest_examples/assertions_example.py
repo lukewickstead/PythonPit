@@ -15,9 +15,17 @@ class TestAssertsExample(TestCase):
     def test_demo_asserts(self):
         # Equality
         self.assertEqual(1, 1)
+        self.assertEqual(1.0, 1)
         self.assertNotEqual(1, 2)
         self.assertAlmostEqual(1.1, 1.11, 1)  # 3rd argument is the precession
         self.assertNotAlmostEqual(1.1, 1.11, 2)  # 3rd argument is the precession
+
+        # AssertEqual can provide an equality check most types
+        self.assertEqual([1, 2, 3], [1, 2, 3])
+        self.assertEqual((1, 2, 3), (1, 2, 3))
+        self.assertEqual({1, 2, 3}, {1, 2, 3})
+        self.assertEqual({'a': 1}, {'a': 1})
+        self.assertEqual("one\ntwo", "one\ntwo")
 
         # Assert Equals Implicitly Calls (prefer assertEqual)
         self.assertListEqual([1, 2, 3], [1, 2, 3])
@@ -31,8 +39,8 @@ class TestAssertsExample(TestCase):
         self.assertTrue(True)
 
         # Collections
-        self.assertSequenceEqual((1, 2, 3), [1, 2, 3])  # Checks only the sequence
-        self.assertEqual([1, 2, 3], [1, 2, 3])  # Can be used with many types.
+        self.assertSequenceEqual((1.0, 2.0, 3.0), [1, 2, 3])  # Checks only the sequence
+        self.assertEqual([1.0, 2.0, 3.0], [1, 2, 3])  # Can be used with many types.
         self.assertIn(1, (1, 2, 3))
         self.assertNotIn(4, (1, 2, 3))
         self.assertCountEqual((1, 2, 3), (3, 2, 1))  # Badly named. This checked elements and not their order
@@ -60,6 +68,7 @@ class TestAssertsExample(TestCase):
             result = 1 / 0
 
         self.assertEqual(str(ex.exception), "division by zero")
+        self.assertIsInstance(ex.exception, ZeroDivisionError)
 
         with self.assertRaisesRegex(ZeroDivisionError, "^division by [a-zA-z]{4}$"):
             result = 1 / 0

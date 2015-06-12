@@ -22,9 +22,8 @@ class MyTestClass(TestCase):
     """
 
     def test_add_two_numbers(self):
-        self.assertEqual(add_two_numbers(1, 2), 3)
-        # self.assertEqual(add_two_numbers(1, 2), 4)
-
+        # self.assertEqual(add_two_numbers(1, 2), 3)
+        self.assertEqual(add_two_numbers(1, 2), 4)
 
 if __name__ == '__main__':
     main()

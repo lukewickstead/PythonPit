@@ -17,5 +17,11 @@ class TestFixtureExample(TestCase):
         # Will always be run if setUp runs regardless of tests successes
         print("In the tearDown")
 
-    def test_fixture(self):
+    def test_fixture_one(self):
+        self.assertTrue(True)
+
+    def test_fixture_two(self):
+        self.assertTrue(True)
+
+    def test_fixture_three(self):
         self.assertTrue(True)

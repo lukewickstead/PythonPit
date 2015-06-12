@@ -4,35 +4,34 @@
 #
 # Miscellaneous operating system interfaces
 #
-# See shutil for better file and directory management functionality
+# https://docs.python.org/3.4/library/os.html
 
 import os
 
-print("os.name:", os.name)
-print("os.uname:", os.uname())
+# Name and uname
+print("\n*** Name and uname")
+print(os.name)                  # OS Name
+print(os.uname())               # OS Uname
 
-print("os.path:", os.path)
-print("os.environ")
-for x in os.environ.items():
-    print("\t\t{0} => {1}".format(x[0], x[1]))
-    break
+# Current Working Directory and Change Directory
+print("\n*** cdw and chdir")
+print(os.getcwd())              # Current Working Directory (CWD)
+os.chdir('/')                   # Change CWD
+print(os.getcwd())
 
-print("os.environ.get('HOME')", os.environ.get('HOME'))
+# Users and Groups
+print("\n*** UserGouprId, UserId, UserGroups")
+print(os.getgid())              # UserGroupId of running process
+print(os.getuid())              # UserId of running process
+print(os.getgroups())           # List of User Groups
 
-print("os.getcwd:", os.getcwd())
-os.chdir('/')
-print("os.chdir('/')")
-print("os.getcwd:", os.getcwd())
+# System Variables
+print("\n*** System Variables")
+print(os.getenv("HOME"))        # Get System variable
+os.putenv("Fluffy", "Yes")      # Set System Variable
+print(os.getenv('Fluffy'))
 
-print("os.getegid:", os.getgid())  # User Group Id
-print("os.getuid:", os.getuid())  # User Id
-print("os.getgroups:", os.getgroups())  # User Groups
-
-print('os.putenv("Fluffy", "Yes")')
-os.putenv("Fluffy", "Yes")
-print('os.getenv("Fluffy")', os.getenv("HOME"))
-
-
-# Commented out due to potential destructive nature
+# Access to most terminal commands.
+# os.mkdir("\foo")
+# os.rmdir("\foo")
 # os.system("mkdir XXX")        # Run terminal command
-# os.remove("\aDir")            # Remove directory

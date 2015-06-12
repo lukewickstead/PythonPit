@@ -12,6 +12,7 @@ from os import path
 
 pickle_file = path.join('output', 'pickle.data')
 
+
 # Our raw data
 data = {"numbers": [1, 2, 3, ],
         "written numbers": ['one', 'two', 'three'],
@@ -30,6 +31,7 @@ except IOError as err:
     print('File error: ' + str(err))
 except pickle.PickleError as pickle_error:
     print('Pickling error: ' + str(pickle_error))
+
 
 # Deserialization
 try:

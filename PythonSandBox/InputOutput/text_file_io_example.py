@@ -44,8 +44,8 @@ with open(text_file, "r") as f:
         print(a_line, end='')  # The file has new line chars also print adds one on by default
 
 
-# Read all lines at the same time stripping \n
-print("\nReading all lines into an array:", text_file)
+# List Comprehensions
+print("\nList comprehensions to read all lines into an array:", text_file)
 lines = [line.rstrip('\n') for line in open(text_file)]
 print(lines)
 
@@ -54,16 +54,14 @@ print(lines)
 print("\nRead with list():", text_file)
 with open(text_file, "r") as f:
     print(list(f))
-    print(list(f))
-    f.seek(0)
-    print(list(f))
 
-# List Seek can be used to move the current marker location through out the file
-# Pass required position as a byte; 9 is the start
+# Seek can be used to move the current marker throughout the file.
+# The position is defined as the number of bytes from the start of the file. 0 is the very start.
 # Tell can be used to get the current position in bytes
 print("\nRead with seek:", text_file)
 with open(text_file, "r") as f:
-    print(list(f))
-    print(list(f))
+    print("Tell: ", f.tell())
+    contents = list(f)
+    print("Tell: ", f.tell())
     f.seek(0)
-    print(list(f))
+    print("Tell: ", f.tell())
