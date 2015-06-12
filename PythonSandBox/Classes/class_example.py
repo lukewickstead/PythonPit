@@ -19,7 +19,7 @@
 # - The method __str__ is called when outputting the instance to the terminal with the print() method
 
 
-class Person():
+class Person:
     IsHuman = "Yes"
 
     def __init__(self, name, age):
@@ -57,7 +57,7 @@ else:
 print("\n*** Class Variables")
 
 
-class ClassVariable():
+class ClassVariable:
     AnInt = 1
     AList = []
 

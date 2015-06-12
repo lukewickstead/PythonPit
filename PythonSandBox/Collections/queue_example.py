@@ -33,7 +33,7 @@ print(queue)
 
 # Append all elements from a collection to the end
 print("\nExtend a collection")
-queue.extend((12,13,14))
+queue.extend((12, 13, 14))
 print(queue)
 
 # Counts the number of occurrences of an element within the collection

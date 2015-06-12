@@ -1,4 +1,3 @@
-
 # tuple_example.py
 #
 # Tuple Example

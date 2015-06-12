@@ -3,7 +3,7 @@
 # Inheritance Example
 
 
-class Person():
+class Person:
     def __init__(self, name, age):
         self.Name = name
         self.Age = age
@@ -19,6 +19,7 @@ class Boy(Person):
 
     def __str__(self):
         return "{0} and is a {1}".format(super().__str__(), self.Sex)
+
 
 a_person = Person("Luke", 36)
 print(a_person)

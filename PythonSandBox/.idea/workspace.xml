@@ -2,45 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b0552b97-65d6-4cf6-a7f6-fcb64b110d16" name="Default" comment="Appending more notes to align with blog">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NumericalDataTypes/complex_example.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DateTimes/date_example.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NumericalDataTypes/decimal_example.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NumericalDataTypes/float_example.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DateTimes/formatting_date_time_and_datetime_example.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NumericalDataTypes/fraction_example.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NumericalDataTypes/int_example.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dictionaries/luke.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DateTimes/time_example.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DateTimes/timedelta_example.py" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DataTypes/numbers_example.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/StandardLibrary/log.txt" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/DataTypes/formatting_to_strings_example.py" afterPath="$PROJECT_DIR$/Strings/formatting_to_strings_example.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/DataTypes/hello_world_example.py" afterPath="$PROJECT_DIR$/Strings/hello_world_example.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/DataTypes/strings_example.py" afterPath="$PROJECT_DIR$/Strings/strings_example.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/StandardLibrary/datetime_example.py" afterPath="$PROJECT_DIR$/DateTimes/datetime_example.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/StandardLibrary/math_example.py" afterPath="$PROJECT_DIR$/NumericalDataTypes/math_example.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/StandardLibrary/random_example.py" afterPath="$PROJECT_DIR$/NumericalDataTypes/random_example.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/StandardLibrary/timeit_example.py" afterPath="$PROJECT_DIR$/DateTimes/timeit_example.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../DjangoSandBox/DjangoSandBox/.idea/DjangoSandBox.iml" afterPath="$PROJECT_DIR$/../DjangoSandBox/DjangoSandBox/.idea/DjangoSandBox.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/PythonSandBox.iml" afterPath="$PROJECT_DIR$/.idea/PythonSandBox.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../README.md" afterPath="$PROJECT_DIR$/../README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Testing/unittest_examples/assertions_example.py" afterPath="$PROJECT_DIR$/Testing/unittest_examples/assertions_example.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Testing/unittest_examples/attribute_examples.py" afterPath="$PROJECT_DIR$/Testing/unittest_examples/attribute_examples.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/InputOutput/binary_file_io_example.py" afterPath="$PROJECT_DIR$/InputOutput/binary_file_io_example.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/StandardLibrary/glob_example.py" afterPath="$PROJECT_DIR$/StandardLibrary/glob_example.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/InputOutput/output/json.dump" afterPath="$PROJECT_DIR$/InputOutput/output/json.dump" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/StandardLibrary/logging_example.py" afterPath="$PROJECT_DIR$/StandardLibrary/logging_example.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ControlFlow/loops_example.py" afterPath="$PROJECT_DIR$/ControlFlow/loops_example.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/StandardLibrary/os_example.py" afterPath="$PROJECT_DIR$/StandardLibrary/os_example.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/InputOutput/output/pickle.data" afterPath="$PROJECT_DIR$/InputOutput/output/pickle.data" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/InputOutput/pickle_example.py" afterPath="$PROJECT_DIR$/InputOutput/pickle_example.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/StandardLibrary/shutil_example.py" afterPath="$PROJECT_DIR$/StandardLibrary/shutil_example.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Testing/unittest_examples/simple_example.py" afterPath="$PROJECT_DIR$/Testing/unittest_examples/simple_example.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Testing/unittest_examples/test_fixture_example.py" afterPath="$PROJECT_DIR$/Testing/unittest_examples/test_fixture_example.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/InputOutput/text_file_io_example.py" afterPath="$PROJECT_DIR$/InputOutput/text_file_io_example.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/StandardLibrary/unipath_example.py" afterPath="$PROJECT_DIR$/StandardLibrary/unipath_example.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/InputOutput/user_input_example.py" afterPath="$PROJECT_DIR$/InputOutput/user_input_example.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Classes/class_example.py" afterPath="$PROJECT_DIR$/Classes/class_example.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Collections/dictionary_example.py" afterPath="$PROJECT_DIR$/Collections/dictionary_example.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Classes/immutable_mutable_example.py" afterPath="$PROJECT_DIR$/Classes/immutable_mutable_example.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Classes/inheritance_example.py" afterPath="$PROJECT_DIR$/Classes/inheritance_example.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Collections/list_comprehensions_example.py" afterPath="$PROJECT_DIR$/Collections/list_comprehensions_example.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Collections/list_example.py" afterPath="$PROJECT_DIR$/Collections/list_example.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Collections/list_ordering_example.py" afterPath="$PROJECT_DIR$/Collections/list_ordering_example.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Collections/list_slicing_example.py" afterPath="$PROJECT_DIR$/Collections/list_slicing_example.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Classes/passing_immutable_mutable_objects_example.py" afterPath="$PROJECT_DIR$/Classes/passing_immutable_mutable_objects_example.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Collections/queue_example.py" afterPath="$PROJECT_DIR$/Collections/queue_example.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Classes/scope_example.py" afterPath="$PROJECT_DIR$/Classes/scope_example.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Collections/set_example.py" afterPath="$PROJECT_DIR$/Collections/set_example.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Collections/tuple_example.py" afterPath="$PROJECT_DIR$/Collections/tuple_example.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="PythonSandBox.iws" />
@@ -66,18 +42,18 @@
     <SUITE FILE_PATH="coverage/PythonSandBox$iterator_example.coverage" NAME="iterator_example Coverage Results" MODIFIED="1433261162819" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ControlFlow" />
     <SUITE FILE_PATH="coverage/PythonSandBox$Unittests_in_simple_example.coverage" NAME="Unittests in simple_example Coverage Results" MODIFIED="1427544615706" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Testing/unittest_examples" />
     <SUITE FILE_PATH="coverage/PythonSandBox$references_and_immutable_objects_example.coverage" NAME="references_and_immutable_objects_example Coverage Results" MODIFIED="1433181990370" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Classes" />
-    <SUITE FILE_PATH="coverage/PythonSandBox$list_example.coverage" NAME="list_example Coverage Results" MODIFIED="1433427278487" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Collections" />
     <SUITE FILE_PATH="coverage/PythonSandBox$mock_example.coverage" NAME="mock_example Coverage Results" MODIFIED="1432992360601" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Testing/mock_examples" />
-    <SUITE FILE_PATH="coverage/PythonSandBox$stack_example.coverage" NAME="stack_example Coverage Results" MODIFIED="1433427969019" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Collections" />
+    <SUITE FILE_PATH="coverage/PythonSandBox$list_example.coverage" NAME="list_example Coverage Results" MODIFIED="1433427278487" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Collections" />
     <SUITE FILE_PATH="coverage/PythonSandBox$Unittest_TestAssertsExample_test_demo_asserts.coverage" NAME="Unittest TestAssertsExample.test_demo_asserts Coverage Results" MODIFIED="1433769303460" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Testing/unittest_examples" />
-    <SUITE FILE_PATH="coverage/PythonSandBox$Unittests_in_TestAttributes.coverage" NAME="Unittests in TestAttributes Coverage Results" MODIFIED="1427555926838" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Testing/unittest_examples" />
+    <SUITE FILE_PATH="coverage/PythonSandBox$stack_example.coverage" NAME="stack_example Coverage Results" MODIFIED="1433427969019" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Collections" />
     <SUITE FILE_PATH="coverage/PythonSandBox$set_example.coverage" NAME="set_example Coverage Results" MODIFIED="1433440663879" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Collections" />
+    <SUITE FILE_PATH="coverage/PythonSandBox$Unittests_in_TestAttributes.coverage" NAME="Unittests in TestAttributes Coverage Results" MODIFIED="1427555926838" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Testing/unittest_examples" />
     <SUITE FILE_PATH="coverage/PythonSandBox$rethrowing_an_exception.coverage" NAME="rethrowing_an_exception Coverage Results" MODIFIED="1433587930644" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Exceptions" />
-    <SUITE FILE_PATH="coverage/PythonSandBox$lists_and_linq_style_functionality.coverage" NAME="lists_and_linq_style_functionality Coverage Results" MODIFIED="1433438206708" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Collections" />
     <SUITE FILE_PATH="coverage/PythonSandBox$Test__polls_tests_QuestionMethodTests_test_was_published_recently_with_future_question.coverage" NAME="Test: polls.tests.QuestionMethodTests.test_was_published_recently_with_future_question Coverage Results" MODIFIED="1426938885554" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/PythonSandBox$lists_and_linq_style_functionality.coverage" NAME="lists_and_linq_style_functionality Coverage Results" MODIFIED="1433438206708" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Collections" />
     <SUITE FILE_PATH="coverage/PythonSandBox$testsuite_example.coverage" NAME="testsuite_example Coverage Results" MODIFIED="1427554358278" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Testing/unittest_examples" />
-    <SUITE FILE_PATH="coverage/PythonSandBox$math_example.coverage" NAME="math_example Coverage Results" MODIFIED="1433958329733" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/NumericalDataTypes" />
     <SUITE FILE_PATH="coverage/PythonSandBox$functions_example.coverage" NAME="functions_example Coverage Results" MODIFIED="1433257258129" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ControlFlow" />
+    <SUITE FILE_PATH="coverage/PythonSandBox$math_example.coverage" NAME="math_example Coverage Results" MODIFIED="1433958329733" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/NumericalDataTypes" />
     <SUITE FILE_PATH="coverage/PythonSandBox$numbers_example.coverage" NAME="numbers_example Coverage Results" MODIFIED="1433928098588" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DataTypes" />
     <SUITE FILE_PATH="coverage/PythonSandBox$formatting_date_time_and_datetime_example.coverage" NAME="formatting_date_time_and_datetime_example Coverage Results" MODIFIED="1433865694848" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DateTimes" />
     <SUITE FILE_PATH="coverage/PythonSandBox$try_catch_granularity.coverage" NAME="try_catch_granularity Coverage Results" MODIFIED="1433585543628" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Exceptions" />
@@ -106,43 +82,43 @@
     <SUITE FILE_PATH="coverage/PythonSandBox$scope_example.coverage" NAME="scope_example Coverage Results" MODIFIED="1433190076851" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Classes" />
     <SUITE FILE_PATH="coverage/PythonSandBox$raising_an_exception.coverage" NAME="raising_an_exception Coverage Results" MODIFIED="1433599747717" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Exceptions" />
     <SUITE FILE_PATH="coverage/PythonSandBox$function_documentation_example.coverage" NAME="function_documentation_example Coverage Results" MODIFIED="1433259579944" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ControlFlow" />
-    <SUITE FILE_PATH="coverage/PythonSandBox$populate_the_simple_parent_and_child.coverage" NAME="populate_the_simple_parent_and_child Coverage Results" MODIFIED="1427478461998" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../DjangoSandBox/DjangoSandBox/modelsintroduction/populations" />
-    <SUITE FILE_PATH="coverage/PythonSandBox$doc_test_example.coverage" NAME="doc_test_example Coverage Results" MODIFIED="1433761241676" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Testing" />
-    <SUITE FILE_PATH="coverage/PythonSandBox$exception_exc_info_example.coverage" NAME="exception_exc_info_example Coverage Results" MODIFIED="1433599381874" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Exceptions" />
     <SUITE FILE_PATH="coverage/PythonSandBox$arithmetic_operators_examples.coverage" NAME="arithmetic_operators_examples Coverage Results" MODIFIED="1433013448697" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Operators" />
-    <SUITE FILE_PATH="coverage/PythonSandBox$formatting_to_strings_example.coverage" NAME="formatting_to_strings_example Coverage Results" MODIFIED="1433490102217" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DataTypes" />
+    <SUITE FILE_PATH="coverage/PythonSandBox$exception_exc_info_example.coverage" NAME="exception_exc_info_example Coverage Results" MODIFIED="1433599381874" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Exceptions" />
+    <SUITE FILE_PATH="coverage/PythonSandBox$doc_test_example.coverage" NAME="doc_test_example Coverage Results" MODIFIED="1433761241676" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Testing" />
+    <SUITE FILE_PATH="coverage/PythonSandBox$populate_the_simple_parent_and_child.coverage" NAME="populate_the_simple_parent_and_child Coverage Results" MODIFIED="1427478461998" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../DjangoSandBox/DjangoSandBox/modelsintroduction/populations" />
     <SUITE FILE_PATH="coverage/PythonSandBox$list_comprehensions_example.coverage" NAME="list_comprehensions_example Coverage Results" MODIFIED="1433438185448" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Collections" />
+    <SUITE FILE_PATH="coverage/PythonSandBox$formatting_to_strings_example.coverage" NAME="formatting_to_strings_example Coverage Results" MODIFIED="1433490102217" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DataTypes" />
     <SUITE FILE_PATH="coverage/PythonSandBox$int_example.coverage" NAME="int_example Coverage Results" MODIFIED="1433950854651" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/NumericalDataTypes" />
     <SUITE FILE_PATH="coverage/PythonSandBox$list_ordering_example.coverage" NAME="list_ordering_example Coverage Results" MODIFIED="1433423203461" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Collections" />
     <SUITE FILE_PATH="coverage/PythonSandBox$decimal_example.coverage" NAME="decimal_example Coverage Results" MODIFIED="1433952824050" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/NumericalDataTypes" />
     <SUITE FILE_PATH="coverage/PythonSandBox$inheritance_example.coverage" NAME="inheritance_example Coverage Results" MODIFIED="1433175529152" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Classes" />
-    <SUITE FILE_PATH="coverage/PythonSandBox$complex_example.coverage" NAME="complex_example Coverage Results" MODIFIED="1433953560022" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/NumericalDataTypes" />
     <SUITE FILE_PATH="coverage/PythonSandBox$shutil_example.coverage" NAME="shutil_example Coverage Results" MODIFIED="1434035269821" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/StandardLibrary" />
+    <SUITE FILE_PATH="coverage/PythonSandBox$complex_example.coverage" NAME="complex_example Coverage Results" MODIFIED="1433953560022" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/NumericalDataTypes" />
     <SUITE FILE_PATH="coverage/PythonSandBox$by_reference_by_value_example.coverage" NAME="by_reference_by_value_example Coverage Results" MODIFIED="1433006606817" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Classes" />
     <SUITE FILE_PATH="coverage/PythonSandBox$try_finally_example.coverage" NAME="try_finally_example Coverage Results" MODIFIED="1433586857524" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Exceptions" />
-    <SUITE FILE_PATH="coverage/PythonSandBox$list_slicing_example.coverage" NAME="list_slicing_example Coverage Results" MODIFIED="1433423593587" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Collections" />
     <SUITE FILE_PATH="coverage/PythonSandBox$loops_example.coverage" NAME="loops_example Coverage Results" MODIFIED="1433254710759" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ControlFlow" />
+    <SUITE FILE_PATH="coverage/PythonSandBox$list_slicing_example.coverage" NAME="list_slicing_example Coverage Results" MODIFIED="1433423593587" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Collections" />
     <SUITE FILE_PATH="coverage/PythonSandBox$Unittests_in_TestFixtureExample.coverage" NAME="Unittests in TestFixtureExample Coverage Results" MODIFIED="1433769422758" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Testing/unittest_examples" />
     <SUITE FILE_PATH="coverage/PythonSandBox$identity_operators_example.coverage" NAME="identity_operators_example Coverage Results" MODIFIED="1433082718751" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Operators" />
     <SUITE FILE_PATH="coverage/PythonSandBox$exception_details_example.coverage" NAME="exception_details_example Coverage Results" MODIFIED="1433585161840" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Exceptions" />
-    <SUITE FILE_PATH="coverage/PythonSandBox$class_example.coverage" NAME="class_example Coverage Results" MODIFIED="1433670396394" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Classes" />
-    <SUITE FILE_PATH="coverage/PythonSandBox$lambda_example.coverage" NAME="lambda_example Coverage Results" MODIFIED="1433422141431" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ControlFlow" />
+    <SUITE FILE_PATH="coverage/PythonSandBox$class_example.coverage" NAME="class_example Coverage Results" MODIFIED="1434122260122" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Classes" />
     <SUITE FILE_PATH="coverage/PythonSandBox$binary_file_io_example.coverage" NAME="binary_file_io_example Coverage Results" MODIFIED="1433692818401" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/InputOutput" />
+    <SUITE FILE_PATH="coverage/PythonSandBox$lambda_example.coverage" NAME="lambda_example Coverage Results" MODIFIED="1433422141431" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ControlFlow" />
     <SUITE FILE_PATH="coverage/PythonSandBox$urllib_request_example.coverage" NAME="urllib_request_example Coverage Results" MODIFIED="1433958989316" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/StandardLibrary" />
     <SUITE FILE_PATH="coverage/PythonSandBox$hello_world_example.coverage" NAME="hello_world_example Coverage Results" MODIFIED="1433350100220" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DataTypes" />
-    <SUITE FILE_PATH="coverage/PythonSandBox$datetime_example.coverage" NAME="datetime_example Coverage Results" MODIFIED="1433864935352" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DateTimes" />
     <SUITE FILE_PATH="coverage/PythonSandBox$Test__modelsintroduction.coverage" NAME="Test: modelsintroduction Coverage Results" MODIFIED="1427522906558" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/PythonSandBox$datetime_example.coverage" NAME="datetime_example Coverage Results" MODIFIED="1433864935352" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DateTimes" />
     <SUITE FILE_PATH="coverage/PythonSandBox$os_example.coverage" NAME="os_example Coverage Results" MODIFIED="1434034263813" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/StandardLibrary" />
     <SUITE FILE_PATH="coverage/PythonSandBox$try_catch_else_finally.coverage" NAME="try_catch_else_finally Coverage Results" MODIFIED="1433587225086" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Exceptions" />
-    <SUITE FILE_PATH="coverage/PythonSandBox$Unittest_TestAssertsExample_test_demo_asserts__1_.coverage" NAME="Unittest TestAssertsExample.test_demo_asserts (1) Coverage Results" MODIFIED="1427544655152" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Testing/unittest_examples" />
     <SUITE FILE_PATH="coverage/PythonSandBox$if_elif_else_example.coverage" NAME="if_elif_else_example Coverage Results" MODIFIED="1433248922682" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ControlFlow" />
+    <SUITE FILE_PATH="coverage/PythonSandBox$Unittest_TestAssertsExample_test_demo_asserts__1_.coverage" NAME="Unittest TestAssertsExample.test_demo_asserts (1) Coverage Results" MODIFIED="1427544655152" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Testing/unittest_examples" />
     <SUITE FILE_PATH="coverage/PythonSandBox$glob_example.coverage" NAME="glob_example Coverage Results" MODIFIED="1434037606755" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/StandardLibrary" />
     <SUITE FILE_PATH="coverage/PythonSandBox$tuple_example.coverage" NAME="tuple_example Coverage Results" MODIFIED="1433433088747" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Collections" />
     <SUITE FILE_PATH="coverage/PythonSandBox$fraction_example.coverage" NAME="fraction_example Coverage Results" MODIFIED="1433953170104" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/NumericalDataTypes" />
-    <SUITE FILE_PATH="coverage/PythonSandBox$float_example.coverage" NAME="float_example Coverage Results" MODIFIED="1433957842126" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/NumericalDataTypes" />
     <SUITE FILE_PATH="coverage/PythonSandBox$Unittests_in_MyTestClass.coverage" NAME="Unittests in MyTestClass Coverage Results" MODIFIED="1433763873468" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Testing/unittest_examples" />
-    <SUITE FILE_PATH="coverage/PythonSandBox$logical_operators_example.coverage" NAME="logical_operators_example Coverage Results" MODIFIED="1433080678580" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Operators" />
+    <SUITE FILE_PATH="coverage/PythonSandBox$float_example.coverage" NAME="float_example Coverage Results" MODIFIED="1433957842126" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/NumericalDataTypes" />
     <SUITE FILE_PATH="coverage/PythonSandBox$timeit_example.coverage" NAME="timeit_example Coverage Results" MODIFIED="1433926138977" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DateTimes" />
+    <SUITE FILE_PATH="coverage/PythonSandBox$logical_operators_example.coverage" NAME="logical_operators_example Coverage Results" MODIFIED="1433080678580" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Operators" />
     <SUITE FILE_PATH="coverage/PythonSandBox$TempScratch.coverage" NAME="TempScratch Coverage Results" MODIFIED="1433170108924" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Classes" />
   </component>
   <component name="CreatePatchCommitExecutor">
@@ -179,20 +155,7 @@
     <favorites_list name="PythonSandBox" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="unipath_example.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/StandardLibrary/unipath_example.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="1.2055675">
-              <caret line="61" column="16" selection-start-line="61" selection-start-column="16" selection-end-line="62" selection-end-column="0" />
-              <folding>
-                <element signature="e#98#122#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -207,19 +170,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/DataTypes/strings_example.py" />
-        <option value="$PROJECT_DIR$/DataTypes/formatting_to_strings_example.py" />
-        <option value="$PROJECT_DIR$/Exceptions/exception_details_example.py" />
-        <option value="$PROJECT_DIR$/Exceptions/try_catch_example.py" />
-        <option value="$PROJECT_DIR$/Exceptions/try_finally_example.py" />
-        <option value="$PROJECT_DIR$/Exceptions/try_catch_else_finally.py" />
-        <option value="$PROJECT_DIR$/Exceptions/exception_exc_info_example.py" />
-        <option value="$PROJECT_DIR$/Exceptions/subclassing_exception_example.py" />
-        <option value="$PROJECT_DIR$/Exceptions/raising_an_exception.py" />
-        <option value="$PROJECT_DIR$/InputOutput/user_input_example.py" />
-        <option value="$PROJECT_DIR$/InputOutput/text_file_io_example.py" />
-        <option value="$PROJECT_DIR$/InputOutput/pickle_example.py" />
-        <option value="$PROJECT_DIR$/InputOutput/binary_file_io_example.py" />
         <option value="$PROJECT_DIR$/Testing/unittest_examples/simple_example.py" />
         <option value="$PROJECT_DIR$/Testing/unittest_examples/test_fixture_example.py" />
         <option value="$PROJECT_DIR$/Testing/unittest_examples/attribute_examples.py" />
@@ -258,6 +208,19 @@
         <option value="$PROJECT_DIR$/StandardLibrary/shutil_example.py" />
         <option value="$PROJECT_DIR$/StandardLibrary/glob_example.py" />
         <option value="$PROJECT_DIR$/StandardLibrary/unipath_example.py" />
+        <option value="$PROJECT_DIR$/Classes/immutable_mutable_example.py" />
+        <option value="$PROJECT_DIR$/Classes/class_example.py" />
+        <option value="$PROJECT_DIR$/Classes/inheritance_example.py" />
+        <option value="$PROJECT_DIR$/Classes/passing_immutable_mutable_objects_example.py" />
+        <option value="$PROJECT_DIR$/Classes/scope_example.py" />
+        <option value="$PROJECT_DIR$/Collections/dictionary_example.py" />
+        <option value="$PROJECT_DIR$/Collections/list_comprehensions_example.py" />
+        <option value="$PROJECT_DIR$/Collections/list_example.py" />
+        <option value="$PROJECT_DIR$/Collections/list_ordering_example.py" />
+        <option value="$PROJECT_DIR$/Collections/list_slicing_example.py" />
+        <option value="$PROJECT_DIR$/Collections/queue_example.py" />
+        <option value="$PROJECT_DIR$/Collections/set_example.py" />
+        <option value="$PROJECT_DIR$/Collections/tuple_example.py" />
       </list>
     </option>
   </component>
@@ -314,7 +277,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -333,22 +295,9 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PythonSandBox" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PythonSandBox" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="StandardLibrary" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="Scratches" />
     </panes>
   </component>
@@ -358,7 +307,7 @@
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="recentsLimit" value="5" />
     <property name="FullScreen" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../Reference/Documention/My Tutorials/Python/Exceptions.md" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/tango_with_django_book-master/17/chapters/bootstrap.rst" />
     <property name="restartRequiresConfirmation" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="dynamic.classpath" value="false" />
@@ -383,7 +332,7 @@
       <recent name="$PROJECT_DIR$/Testing/mock_examples" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.unipath_example">
+  <component name="RunManager" selected="Python.class_example">
     <configuration default="false" name="unipath_example" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -452,6 +401,24 @@
       <module name="PythonSandBox" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/StandardLibrary/glob_example.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="class_example" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Classes" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="PythonSandBox" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Classes/class_example.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -546,6 +513,24 @@
       <option name="SCRIPT_NAME" value="" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="docs" factoryName="Docutils task">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="DjangoSandBox" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="docutils_input_file" value="" />
+      <option name="docutils_output_file" value="" />
+      <option name="docutils_params" value="" />
+      <option name="docutils_task" value="" />
+      <option name="docutils_open_in_browser" value="false" />
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
@@ -695,19 +680,21 @@
       <ConfigurationWrapper RunnerId="PythonRunner" />
       <method />
     </configuration>
-    <list size="5">
+    <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Django server.DjangoSandBox" />
       <item index="1" class="java.lang.String" itemvalue="Python.unipath_example" />
       <item index="2" class="java.lang.String" itemvalue="Python.os_example" />
       <item index="3" class="java.lang.String" itemvalue="Python.shutil_example" />
       <item index="4" class="java.lang.String" itemvalue="Python.glob_example" />
+      <item index="5" class="java.lang.String" itemvalue="Python.class_example" />
     </list>
     <recent_temporary>
-      <list size="4">
-        <item index="0" class="java.lang.String" itemvalue="Python.unipath_example" />
-        <item index="1" class="java.lang.String" itemvalue="Python.glob_example" />
-        <item index="2" class="java.lang.String" itemvalue="Python.shutil_example" />
-        <item index="3" class="java.lang.String" itemvalue="Python.os_example" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Python.class_example" />
+        <item index="1" class="java.lang.String" itemvalue="Python.unipath_example" />
+        <item index="2" class="java.lang.String" itemvalue="Python.glob_example" />
+        <item index="3" class="java.lang.String" itemvalue="Python.shutil_example" />
+        <item index="4" class="java.lang.String" itemvalue="Python.os_example" />
       </list>
     </recent_temporary>
   </component>
@@ -734,7 +721,13 @@
       <option name="project" value="LOCAL" />
       <updated>1433676920282</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Appending more notes to align with blog">
+      <created>1434110698993</created>
+      <option name="number" value="00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1434110698993</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TodoView">
@@ -755,22 +748,22 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.20360824" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24935567" sideWeight="0.49933776" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19201031" sideWeight="0.6370861" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19458763" sideWeight="0.6370861" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3965287" sideWeight="0.70150435" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.20794702" sideWeight="0.7451702" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33778372" sideWeight="0.79888713" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33778372" sideWeight="0.7944" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2583763" sideWeight="0.3629139" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33778372" sideWeight="0.20111288" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33778372" sideWeight="0.2056" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3271523" sideWeight="0.49954003" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3271523" sideWeight="0.49954003" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
     <layout-to-restore>
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -790,9 +783,9 @@
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2583763" sideWeight="0.6370861" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.20794702" sideWeight="0.7451702" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.37615895" sideWeight="0.49954003" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.37615895" sideWeight="0.49954003" order="2" side_tool="false" content_ui="tabs" />
     </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -829,121 +822,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file:///usr/lib/python3.4/unittest/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="6.0906734">
-          <caret line="247" column="0" selection-start-line="247" selection-start-column="0" selection-end-line="247" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Testing/doc_test_example.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.31088084">
-          <caret line="8" column="33" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Testing/unittest_examples/test_fixture_example.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.51508623">
-          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Testing/unittest_examples/simple_example.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4827586">
-          <caret line="18" column="6" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Testing/unittest_examples/testsuite_example.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6788793">
-          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/lib/python3.4/unittest/case.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="1063" column="30" selection-start-line="1063" selection-start-column="30" selection-end-line="1063" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Testing/unittest_examples/assertions_example.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="54" column="18" selection-start-line="54" selection-start-column="13" selection-end-line="54" selection-end-column="21" />
-          <folding>
-            <element signature="e#80#109#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Testing/unittest_examples/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Testing/unittest_examples/attribute_examples.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8060345">
-          <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/lib/python3.4/datetime.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33189654">
-          <caret line="1289" column="6" selection-start-line="1289" selection-start-column="6" selection-end-line="1289" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.PyCharm40/system/python_stubs/-1247971765/time.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="3.330551">
-          <caret line="148" column="4" selection-start-line="148" selection-start-column="4" selection-end-line="148" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/lib/python3.4/timeit.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.48247078">
-          <caret line="169" column="3" selection-start-line="169" selection-start-column="3" selection-end-line="169" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ControlFlow/lambda_example.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="10" column="21" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ControlFlow/loops_example.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DateTimes/timeit_example.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8764608">
-          <caret line="35" column="0" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DateTimes/timedelta_example.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.34891486">
-          <caret line="18" column="34" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/DateTimes/time_example.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.30050084">
@@ -1183,13 +1061,143 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$USER_HOME$/Downloads/tango_with_django_book-master/17/chapters/bootstrap.rst">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6423983">
+          <caret line="20" column="21" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../DjangoSandBox/DjangoSandBox/helloworld/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.37585422">
+          <caret line="11" column="44" selection-start-line="11" selection-start-column="44" selection-end-line="11" selection-end-column="44" />
+          <folding>
+            <element signature="e#0#36#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/StandardLibrary/unipath_example.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.2055675">
-          <caret line="61" column="16" selection-start-line="61" selection-start-column="16" selection-end-line="62" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.8522484">
+          <caret line="50" column="18" selection-start-line="50" selection-start-column="18" selection-end-line="50" selection-end-column="18" />
           <folding>
             <element signature="e#98#122#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Classes/immutable_mutable_example.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="3" selection-start-line="0" selection-start-column="2" selection-end-line="0" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Classes/class_example.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="23" column="0" selection-start-line="22" selection-start-column="19" selection-end-line="23" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Classes/inheritance_example.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Classes/passing_immutable_mutable_objects_example.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="64" column="0" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Classes/scope_example.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="62" column="0" selection-start-line="62" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Collections/dictionary_example.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="57" column="0" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Collections/list_comprehensions_example.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="29" column="19" selection-start-line="29" selection-start-column="19" selection-end-line="29" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Collections/list_example.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Collections/list_ordering_example.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Collections/list_slicing_example.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="12" selection-start-line="0" selection-start-column="12" selection-end-line="0" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Collections/lists_and_linq_style_functionality.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="27" selection-start-line="0" selection-start-column="27" selection-end-line="0" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Collections/queue_example.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Collections/set_example.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Collections/tuple_example.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33190578">
+          <caret line="22" column="12" selection-start-line="22" selection-start-column="12" selection-end-line="22" selection-end-column="12" />
+          <folding />
         </state>
       </provider>
     </entry>
