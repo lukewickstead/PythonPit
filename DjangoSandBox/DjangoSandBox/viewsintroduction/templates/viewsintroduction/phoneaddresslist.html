@@ -1,0 +1,46 @@
+{% extends "viewsintroduction/base.html" %}
+
+{% block title %}
+    <h2>Address List</h2>
+{% endblock title %}
+
+{% block content %}
+    <table>
+        <tr>
+            <th>No.</th>
+            <th>Street Name</th>
+            <th>City</th>
+            <th></th>
+            <th></th>
+            <th></th>
+        </tr>
+        {% for address in object_list %}
+            <tr>
+                <td>{{ address.number }}</td>
+                <td>{{ address.street_name }}</td>
+                <td>{{ address.city }}</td>
+                <td><a href="{% url "viewsintroduction:address" address.id %}">View</a></td>
+                <td><a href="{% url "viewsintroduction:address_update" address.id %}">Update</a></td>
+                <td><a href="{% url "viewsintroduction:address_delete" address.id %}">Delete</a></td>
+            </tr>
+        {% endfor %}
+    </table>
+    {% if is_paginated %}
+        <div class="pagination">
+            <span>
+                {% if page_obj.has_previous %}
+                    <a href="{% url "viewsintroduction:address_list" %}?page={{ page_obj.previous_page_number }}">Previous</a>
+                {% endif %}
+                <span>
+                    Page {{ page_obj.number }} of {{ page_obj.paginator.num_pages }}.
+                </span>
+                {% if page_obj.has_next %}
+                    <a href="{% url "viewsintroduction:address_list" %}?page={{ page_obj.next_page_number }}">Next</a>
+                {% endif %}
+            </span>
+        </div>
+    {% endif %}
+
+    <span><a href="{% url "viewsintroduction:address_create" %}">Create</a></span>
+    <span><a href="{% url "viewsintroduction:contact_list" %}">Contacts</a></span>
+{% endblock %}

@@ -1,0 +1,28 @@
+{% extends "viewsintroduction/base.html" %}
+
+{% block title %}
+    <h2>Address Details</h2>
+{% endblock title %}
+
+{% block content %}
+    <table>
+        <tr>
+            <td>No.</td>
+            <td>{{ object.number }}</td>
+        <tr>
+            <td>Street</td>
+            <td>{{ object.street_name }}</td>
+        <tr>
+            <td>City</td>
+            <td>{{ object.city }}</td>
+        </tr>
+    </table>
+
+    <table>
+        <tr>
+            <td><a href="{% url "viewsintroduction:address_list" %}">Back</a></td>
+            <td><a href="{% url "viewsintroduction:address_update" object.id %}">Update</a></td>
+            <td><a href="{% url "viewsintroduction:address_delete" object.id %}">Delete</a></td>
+        </tr>
+    </table>
+{% endblock content %}

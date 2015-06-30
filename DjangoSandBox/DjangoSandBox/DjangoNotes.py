@@ -1,4 +1,4 @@
-# TODO: Views, Forms, Login/Security, Web Service, Requirements file, notes, Documentation, coding style, relative imports, ajax, csv, pdf, test
+# TODO: Views (index, style), Forms/FormView, Login/Security, Web Service, Requirements file, notes, Documentation, coding style, relative imports, ajax, csv, pdf, test
 
 # db.sqlite3 Username/Password = admin/Password
 
