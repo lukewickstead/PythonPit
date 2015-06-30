@@ -1,0 +1,15 @@
+{% extends "viewsintroduction/base.html" %}
+
+{% block title %}
+    <h2>Contact Create</h2>
+{% endblock title %}
+
+{% block content %}
+    <form method="post" action="{% url "viewsintroduction:contact_create" %}">
+        {% csrf_token %}
+        <table>
+            {{ form.as_table }}
+        </table>
+        <p><input type="submit" value="Create"/></p>
+    </form>
+{% endblock content %}

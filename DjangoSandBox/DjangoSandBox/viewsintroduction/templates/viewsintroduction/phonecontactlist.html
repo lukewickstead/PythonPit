@@ -1,0 +1,53 @@
+{% extends "viewsintroduction/base.html" %}
+
+{% block title %}
+    <h2>Contact List</h2>
+{% endblock title %}
+
+{% block content %}
+    <table>
+        <tr>
+            <th>Surname</th>
+            <th>Name</th>
+            <th>Height</th>
+            <th>Date of Birth</th>
+            <th>Is Family</th>
+            <th>Address</th>
+            <th></th>
+            <th></th>
+            <th></th>
+        </tr>
+        {% for contact in object_list %}
+            <tr>
+                <td>{{ contact.surname }}</td>
+                <td>{{ contact.name }}</td>
+                <td>{{ contact.height }}</td>
+                <td>{{ contact.date_of_birth }}</td>
+                <td>{{ contact.is_family }}</td>
+                <td>{{ contact.address }}</td>
+
+                <td><a href="{% url "viewsintroduction:contact" contact.id %}">View</a></td>
+                <td><a href="{% url "viewsintroduction:contact_update" contact.id %}">Update</a></td>
+                <td><a href="{% url "viewsintroduction:contact_delete" contact.id %}">Delete</a></td>
+            </tr>
+        {% endfor %}
+    </table>
+    {% if is_paginated %}
+        <div class="pagination">
+            <span>
+                {% if page_obj.has_previous %}
+                    <a href="{% url "viewsintroduction:contact_list" %}?page={{ page_obj.previous_page_number }}">Previous</a>
+                {% endif %}
+                <span>
+                    Page {{ page_obj.number }} of {{ page_obj.paginator.num_pages }}.
+                </span>
+                {% if page_obj.has_next %}
+                    <a href="{% url "viewsintroduction:contact_list" %}?page={{ page_obj.next_page_number }}">Next</a>
+                {% endif %}
+            </span>
+        </div>
+    {% endif %}
+
+    <span><a href="{% url "viewsintroduction:contact_create" %}">Create</a></span>
+    <span><a href="{% url "viewsintroduction:address_list" %}">Addresses</a></span>
+{% endblock content %}
