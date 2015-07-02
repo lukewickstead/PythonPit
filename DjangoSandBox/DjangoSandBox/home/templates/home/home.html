@@ -3,24 +3,25 @@
 <head lang="en">
     <meta charset="UTF-8">
     <title></title>
-
     <style>
-        span{ display: block; }
+        span {
+            display: block;
+        }
     </style>
-
 </head>
 <body>
-
-
 <h1>Home</h1>
-
     <span>
-        <a href="{% url 'helloworld:index'%}">Hello World</a>
+        <a href="{% url 'helloworld:index' %}">Hello World</a>
     </span>
-
     <span>
-        <a href="{% url 'templatesintroduction:index'%}">Templates</a>
+        <a href="{% url 'templatesintroduction:index' %}">Templates</a>
     </span>
-
+    <span>
+        <a href="{% url 'viewsintroduction:contact_list' %}">Views</a>
+    </span>
+    <span>
+        <a href="{% url 'formsintroduction:form_basic' %}">Forms</a>
+    </span>
 </body>
 </html>

@@ -4,9 +4,6 @@ from django.core.validators import MinValueValidator, MaxValueValidator, RegexVa
 from django.core.exceptions import ValidationError
 from django.utils import timezone
 
-# These models are not applied to the db as they are not referenced within
-# They are here as a kind of cheat sheet
-# TODO: Fill in and complete
 
 class StringFieldTypesExampleModel(models.Model):
     # CharField and TextField. TextField is for larger quantities of text
@@ -61,8 +58,9 @@ class DateFieldTypesExampleModel(models.Model):
 class FilesFieldTypesExampleModel(models.Model):
     # Files
     file_field = models.FileField(null=True)
-    image_field = models.ImageField(
-        null=True)  # Inherits FieldField though. Validates file is an image and also has height/width property
+
+    # Inherits FieldField though. Validates file is an image and also has height/width property
+    image_field = models.ImageField(null=True)
 
 
 class FieldOptionsExampleModel(models.Model):

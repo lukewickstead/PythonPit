@@ -1,4 +1,9 @@
-# TODO: Views (index, style), Forms/FormView, Login/Security, Web Service, Requirements file, notes, Documentation, coding style, relative imports, ajax, csv, pdf, test
+# TODO: Friday:     Testing
+# TODO: Saturday:   Login/Security
+
+# TODO Minor:       Layout/Styles, Requirements file, notes, Documentation, coding style, relative imports, db indexes,
+#                   tool bar, Admin
+
 
 # db.sqlite3 Username/Password = admin/Password
 
@@ -16,10 +21,10 @@
 # python manage.py migrate
 
 # Make migrations, view migrations, check app for migrations, migrate
-#python manage.py makemigrations myapp
-#python manage.py sqlmigrate myapp 0001
-#python manage.py check myapp
-#python manage.py migrate
+# python manage.py makemigrations myapp
+# python manage.py sqlmigrate myapp 0001
+# python manage.py check myapp
+# python manage.py migrate
 
 # Django/Python shell
 # python manage.py shell

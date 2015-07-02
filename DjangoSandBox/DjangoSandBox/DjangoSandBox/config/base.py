@@ -44,7 +44,8 @@ INSTALLED_APPS = (
     'templatesintroduction',
     'home',
     'modelsadvanced',
-    'viewsintroduction'
+    'viewsintroduction',
+    'formsintroduction'
 )
 
 MIDDLEWARE_CLASSES = (

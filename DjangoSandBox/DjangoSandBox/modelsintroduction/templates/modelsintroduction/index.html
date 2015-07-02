@@ -8,6 +8,7 @@
 
 <table>
     <thead>
+    <tr>
         <th>Title</th>
         <th>First Name</th>
         <th>Surname</th>
@@ -16,19 +17,20 @@
         <th>Tel no.</th>
         <th>Email</th>
         <th>Addresses</th>
+    </tr>
     </thead>
     <tbody>
-        {% for counter_person in people_list %}
-            <td>
-                {{  counter_person.title }}
-            </td>
-            <td>
-                {{  counter_person.first_name }}
-            </td>
-        {% endfor %}
-        <tr>
+    {% for counter_person in people_list %}
+        <td>
+            {{ counter_person.title }}
+        </td>
+        <td>
+            {{ counter_person.first_name }}
+        </td>
+    {% endfor %}
+    <tr>
 
-        </tr>
+    </tr>
     </tbody>
 </table>
 

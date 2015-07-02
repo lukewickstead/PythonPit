@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <style>
+        span {
+            display: block;
+        }
+    </style>
+
+</head>
+<body>
+<h1>Forms</h1>
+    <span>
+            <a href="{% url 'formsintroduction:form_basic' %}">Defined</a>
+    </span>
+    <span>
+            <a href="{% url 'formsintroduction:form_basic_html' %}">Defined With Html</a>
+    </span>
+    <span>
+            <a href="{% url 'formsintroduction:form_class_create' %}">Class Based</a>
+    </span>
+    <span>
+            <a href="{% url 'formsintroduction:form_factory_create' %}">Form Factory</a>
+    </span>
+    <span>
+            <a href="{% url 'formsintroduction:form_complete_create' %}">Complete With Widgets</a>
+    </span>
+</body>
+</html>

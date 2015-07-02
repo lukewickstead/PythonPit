@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+<form method="post" action="">
+    {% csrf_token %}
+    {{ form.non_field_errors }}
+    <div class="fieldWrapper">
+        {{ form.message.errors }}
+        <label for="{{ form.name.id_for_label }}">Name:</label>
+        {{ form.name }}
+    </div>
+    <div class="fieldWrapper">
+        {{ form.height.errors }}
+        {{ form.height.label_tag }}
+        {{ form.height }}
+    </div>
+    <p><input type="submit" value="Create"/></p>
+</form>
+</body>
+</html>

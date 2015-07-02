@@ -8,10 +8,11 @@
 
 <h1>Templates & Includes</h1>
 
-<h2><Includes</h2>
+<h2>Includes</h2>
+
 {% include "templatesintroduction/include_one.html" %}
 {% include "templatesintroduction/include_one.html" with msg="This was overridden!!!" %}
-{% include "templatesintroduction/include_one.html" with wrongmsg="This was overridden!!!" only%}
+{% include "templatesintroduction/include_one.html" with wrongmsg="This was overridden!!!" only %}
 
 <h2>SSI</h2>
 If this pointed to a static file we would include the contents!!!

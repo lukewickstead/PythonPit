@@ -22,7 +22,7 @@ class PhoneAddress(Model):
         return "{0} {1} {2}".format(self.number, self.street_name, self.city)
 
     def get_absolute_url(self):
-        return reverse('viewsintroduction:address_list') #, args=[str(self.id)])
+        return reverse('viewsintroduction:address', args=[self.id])
 
 
 class PhoneContact(Model):
@@ -40,4 +40,5 @@ class PhoneContact(Model):
         return "{0} {1}".format(self.name, self.surname)
 
     def get_absolute_url(self):
-        return reverse('viewsintroduction:contact_list') #, args=[str(self.id)])
+        return reverse('viewsintroduction:contact', args=[self.id])
+
