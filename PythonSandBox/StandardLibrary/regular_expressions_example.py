@@ -3,9 +3,7 @@
 # Regular Expressions Example
 #
 #
-# TODO:\b seems to work different from .net
-# TODO: Groups don't seem to work the same as in .net
-# TODO: Add some more examples
+# TODO:\b and Groups work different from .Net. Also add more Examples
 
 import re
 

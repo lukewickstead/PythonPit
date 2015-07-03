@@ -25,8 +25,8 @@ print("\n\n*** Asserting Calls Were Made")
 mock.AnyMethod.assert_any_calls(1, 'a', param='anything')
 mock.AnyMethod.assert_called_with(1, 'a', param='anything')
 mock.AnyMethod.assert_called_once_with(1, 'a', param='anything')
-# mock.AnyMethod.assert_has_calls(stacks calls) TODO: Figure out this bad boy
-
+# mock.AnyMethod.assert_has_calls(stacks calls)
+#
 # Assert call count and was called
 print("\n\n*** Call Count, Called and Reset_Mock ")
 mock = Mock(return_value=None)
@@ -36,8 +36,8 @@ print(mock.called)
 mock.reset_mock()
 print(mock.call_count)
 print(mock.called)
-# TODO: Mocks...
 
+# TODO: More Examples Of Mocks
 
 #
 # # Stub Methods with configure mock
