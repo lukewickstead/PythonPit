@@ -14,6 +14,9 @@
             <th></th>
             <th></th>
         </tr>
+        {% if not object_list %}
+        <tr><td colspan="6">There are no addresses</td></tr>
+        {% endif %}
         {% for address in object_list %}
             <tr>
                 <td>{{ address.number }}</td>

@@ -12,10 +12,10 @@ class TestCreateAuthorBook(TestCase):
     def test_create_author_book(self):
 
         try:
-            a_contact = ContactDetails(name="Luke", age=101, contactDate=date.today())
+            a_contact = ContactDetails(name="Luke", age=101, contactDate=date(year=2015, month=7, day=2))
             a_contact.full_clean()
         except ValidationError as e:
 
             self.assertEqual({'name': ['Ensure this value has at least 10 characters (it has 4).', 'Luke is barred'],
-                              'contactDate': ['2015-06-29 is not a future date.'],
-                              'age': ['Ensure this value is less than or equal to 100.']}, e.message_dict)
+                              'age': ['Ensure this value is less than or equal to 100.'],
+                              'contactDate': ['2015-07-02 is not a future date.']}, e.message_dict)

@@ -19,7 +19,7 @@ urlpatterns = \
              url(r'^contact/(?P<pk>[0-9]+)/update/$', PhoneContactUpdateView.as_view(), name="contact_update"),
 
              # Address
-             url(r'^address/list$', PhoneAddressListView.as_view(), name="address_list"),
+             url(r'^address/list/$', PhoneAddressListView.as_view(), name="address_list"),
              url(r'^address/create/$', PhoneAddressCreateView.as_view(), name="address_create"),
              url(r'^address/(?P<pk>[0-9]+)/$', PhoneAddressDetailView.as_view(), name="address"),
              url(r'^address/(?P<pk>[0-9]+)/delete/$', PhoneAddressDeleteView.as_view(), name="address_delete"),

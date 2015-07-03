@@ -5,15 +5,12 @@ from django.utils import timezone
 from django.views.decorators.http import require_http_methods, require_GET, require_POST
 
 # Reference:
-# https://docs.djangoproject.com/en/1.8/topics/http/views
+# https://docs.djangoproject.com/en/1.8/ref/views/
 # https://docs.djangoproject.com/en/1.8/ref/request-response
+
+# https://docs.djangoproject.com/en/1.8/topics/http/views
 # https://docs.djangoproject.com/en/1.8/topics/http/shortcuts
 # https://docs.djangoproject.com/en/1.8/topics/http/decorators
-# https://docs.djangoproject.com/en/1.8/topics/http/views/#returning-errors
-# https://docs.djangoproject.com/en/1.8/topics/http/shortcuts/#redirect
-# https://docs.djangoproject.com/en/1.8/topics/http/shortcuts/#get-object-or-404
-# https://docs.djangoproject.com/en/1.8/topics/http/shortcuts/#get-list-or-404
-# https://docs.djangoproject.com/en/1.8/ref/views/
 
 from .models import HelloWorld
 
@@ -63,7 +60,7 @@ def error_if_not_get_or_post(request):
 
 @require_POST
 def error_if_not_post(request):
-    return HttpResponse("This can only be called with a post")
+    return HttpResponse("{0}, this can only be called with a post".format(request.POST.get("name", "")))
 
 
 @require_GET

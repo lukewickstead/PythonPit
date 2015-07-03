@@ -1,8 +1,8 @@
 # TODO: Friday:     Testing
-# TODO: Saturday:   Login/Security
+# TODO: Saturday:   Login/Security/Template Escaping
 
 # TODO Minor:       Layout/Styles, Requirements file, notes, Documentation, coding style, relative imports, db indexes,
-#                   tool bar, Admin
+#                   tool bar, Admin, sessions, cookies
 
 
 # db.sqlite3 Username/Password = admin/Password
@@ -39,8 +39,31 @@
 # kill (Process # from previous command)
 
 
+
+# pip freeze
+# pip install -r requirements.txt
+
+# virtualenvwrapper
+# $ mkvirtualenv tddd-env2
+# $ workon tddd-env2
+
+
+# $ source PythonPit/bin/activate
+# $ pip freeze
+#
+# requirements.txt
+# coverage==3.7.1
+# Django==1.8.2
+# docutils==0.12
+# Sphinx==1.3.1
+# Unipath==1.1
+
+
 # Coverage
-# coverage run manage.py test --settings=twoscoops.settings.test
+# coverage run --source='.' manage.py test myapp
+
+# Coverage
+# coverage run manage.py test --settings=project.app.settings.test
 # coverage html --include="$SITE_URL*" --omit="admin.py"
 
 # Tests
