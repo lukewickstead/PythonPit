@@ -14,5 +14,6 @@ def raise_if_true(arg_input):
     finally:
         print('This is the finally!!!!')
 
+
 for number in [1, 2, 3]:
     raise_if_true(number)

@@ -24,15 +24,15 @@ print(r"This\is\a\raw\string\@ in c#")
 # Strings are a collection of characters. Respond to may collection commands
 print("\n*** Are Collections of Chars")
 a_string = 'HelloWorld!'
-print(type(a_string))       # The string class
-print(len(a_string))        # The length
-print(a_string[0])          # Char at index 0
-print(a_string[2:5])        # Chars at index 2 to 5
+print(type(a_string))  # The string class
+print(len(a_string))  # The length
+print(a_string[0])  # Char at index 0
+print(a_string[2:5])  # Chars at index 2 to 5
 
 # Can be duplicated and concatenated
 print("\n*** Duplication and Concatenation")
-print(a_string + "TEST")    # Concat string
-print(a_string * 2)        # String duplicated z10 times
+print(a_string + "TEST")  # Concat string
+print(a_string * 2)  # String duplicated z10 times
 
 # Multi line strings
 print("\n*** Splitting Strings Over Multiple Lines")

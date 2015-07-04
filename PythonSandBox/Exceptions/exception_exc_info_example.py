@@ -6,6 +6,7 @@
 
 import sys
 
+# noinspection PyBroadException,PyBroadException
 try:
     f = open('foo.txt')
     s = f.readline()

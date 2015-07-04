@@ -45,6 +45,7 @@ print("After increment:", data)
 
 
 #  02: You can assign a new mutable object but it does not affect the value outside the method
+# noinspection PyUnusedLocal
 def assign_value(a_data, to_assign):
     a_data = to_assign
     print("Inside append_value:", a_data)

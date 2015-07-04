@@ -17,6 +17,7 @@ def square(to_square):
 def is_even(x):
     return x % 2 == 0
 
+
 numbers = list(range(0, 10))
 
 # Min/Max/Sum/In/Not In
@@ -43,7 +44,7 @@ for n in map(square, range(0, 4)):
     print(n)
 
 print("\nMap as Squared with lambda:")
-for n in map(lambda x: x**2, range(0, 4)):
+for n in map(lambda x: x ** 2, range(0, 4)):
     print(n)
 
 
@@ -62,5 +63,5 @@ print(list(map((lambda x: x ** 2), range(0, 4))))
 
 # Reduce: loops through all elements, the input parameter is the return value for the last element.
 print("\nReduce")
-print(functools.reduce(lambda x, y: x + y, range(4)))          # Starting value of 0. 0 + 1 + 2 + 3
-print(functools.reduce(lambda x, y: x + y, range(4), 10))      # Starting value 10. 10 + 1 + 2 + 3
+print(functools.reduce(lambda x, y: x + y, range(4)))  # Starting value of 0. 0 + 1 + 2 + 3
+print(functools.reduce(lambda x, y: x + y, range(4), 10))  # Starting value 10. 10 + 1 + 2 + 3

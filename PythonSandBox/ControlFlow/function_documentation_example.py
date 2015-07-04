@@ -16,6 +16,7 @@ def my_function(a, *b, **c):
     """
     print(a, b, c)
 
+
 print("*** __doc__")
 print(my_function.__doc__)
 

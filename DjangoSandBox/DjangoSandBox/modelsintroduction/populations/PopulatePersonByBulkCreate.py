@@ -11,11 +11,11 @@ from modelsintroduction.models import Person
 
 
 class PopulatePersonByBulkCreate(PopulatePersonBase):
-
     def __init__(self):
         super().__init__()
         self.people = []
 
+    @staticmethod
     def save_person(self, name, height, date_of_birth, sex):
         if self.person_exists(name):
             return
@@ -25,6 +25,7 @@ class PopulatePersonByBulkCreate(PopulatePersonBase):
     def populate(self):
         super().populate()
         Person.objects.bulk_create(self.people)
+
 
 if __name__ == '__main__':
     a_populator = PopulatePersonByBulkCreate()

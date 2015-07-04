@@ -11,12 +11,13 @@ from modelsintroduction.models import Person
 
 
 class PopulatePersonByCreate(PopulatePersonBase):
-
+    @staticmethod
     def save_person(self, name, height, date_of_birth, sex):
         if self.person_exists(name):
             return
 
         Person.objects.create(name=name, sex=sex, height=height, date_of_birth=date_of_birth)
+
 
 if __name__ == '__main__':
     a_populator = PopulatePersonByCreate()

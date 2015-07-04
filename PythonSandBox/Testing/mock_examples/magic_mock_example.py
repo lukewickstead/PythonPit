@@ -2,10 +2,8 @@
 # #
 # # Example of MagicMock.
 # #
-# # MagickMock provides mocking and asertion funcitonality.
+# # MagickMock provides mocking and assertion functionality.
 # #
-# # Rhinomocks: Mock/Assert functionality
-#
 #
 # from unittest.mock import MagicMock
 #

@@ -7,7 +7,6 @@ import django.core.validators
 
 
 class Migration(migrations.Migration):
-
     dependencies = [
     ]
 
@@ -48,9 +47,16 @@ class Migration(migrations.Migration):
         migrations.CreateModel(
             name='ContactDetails',
             fields=[
-                ('id', models.AutoField(primary_key=True, auto_created=True, verbose_name='ID', serialize=False)),
-                ('age', models.IntegerField(validators=[django.core.validators.MinValueValidator(10), django.core.validators.MaxValueValidator(100)])),
-                ('name', models.CharField(validators=[django.core.validators.MinLengthValidator(10), django.core.validators.MaxLengthValidator(10), django.core.validators.RegexValidator('^[A-Z][a-z]{1,}$')], max_length=20)),
+                ('id', models.AutoField(primary_key=True,
+                                        auto_created=True,
+                                        verbose_name='ID',
+                                        serialize=False)),
+                ('age', models.IntegerField(validators=[django.core.validators.MinValueValidator(10),
+                                                        django.core.validators.MaxValueValidator(100)])),
+                ('name', models.CharField(validators=[django.core.validators.MinLengthValidator(10),
+                                                      django.core.validators.MaxLengthValidator(10),
+                                                      django.core.validators.RegexValidator('^[A-Z][a-z]{1,}$')],
+                                          max_length=20)),
                 ('contactDate', models.DateField(validators=[modelsadvanced.models.is_future_date_validator])),
             ],
         ),
@@ -92,7 +98,10 @@ class Migration(migrations.Migration):
         migrations.CreateModel(
             name='MultiTableBaseChild',
             fields=[
-                ('multitablebaseparent_ptr', models.OneToOneField(primary_key=True, to='modelsadvanced.MultiTableBaseParent', parent_link=True, auto_created=True, serialize=False)),
+                ('multitablebaseparent_ptr',
+                 models.OneToOneField(primary_key=True,
+                                      to='modelsadvanced.MultiTableBaseParent', parent_link=True,
+                                      auto_created=True, serialize=False)),
                 ('age', models.IntegerField()),
             ],
             bases=('modelsadvanced.multitablebaseparent',),

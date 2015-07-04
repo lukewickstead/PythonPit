@@ -19,7 +19,6 @@ def populate():
 
 
 def print_data():
-
     print("*Man --> Dog")
     for aMan in Man.objects.all():
         print("{0} --> {1}".format(aMan, aMan.dog))

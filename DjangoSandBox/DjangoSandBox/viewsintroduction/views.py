@@ -5,6 +5,7 @@ from django.core.urlresolvers import reverse
 from django.contrib import messages
 from viewsintroduction.models import PhoneAddress, PhoneContact
 
+
 # Address Views
 class PhoneAddressDetailView(DetailView):
     model = PhoneAddress

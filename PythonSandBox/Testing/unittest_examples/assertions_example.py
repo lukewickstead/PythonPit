@@ -65,13 +65,13 @@ class TestAssertsExample(TestCase):
 
         # Exception
         with self.assertRaises(ZeroDivisionError) as ex:
-            result = 1 / 0
+            print(1 / 0)
 
         self.assertEqual(str(ex.exception), "division by zero")
         self.assertIsInstance(ex.exception, ZeroDivisionError)
 
         with self.assertRaisesRegex(ZeroDivisionError, "^division by [a-zA-z]{4}$"):
-            result = 1 / 0
+            print(1 / 0)
 
         # Warnings
         with self.assertWarns(DeprecationWarning) as wn:

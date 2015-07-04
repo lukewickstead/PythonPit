@@ -6,6 +6,7 @@
 #
 # Due to the destructive nature of this module most of the examples are commented out
 
+# noinspection PyUnresolvedReferences
 from shutil import move, copy, copytree, rmtree, get_archive_formats, make_archive, unpack_archive, disk_usage, which
 
 # Moving / Copying and Deleting
@@ -27,5 +28,3 @@ print(disk_usage("/"))
 # Which
 print(which("python"))
 print(which("python3"))
-
-

@@ -38,15 +38,12 @@
 # ps auxw | grep runserver
 # kill (Process # from previous command)
 
-
-
 # pip freeze
 # pip install -r requirements.txt
 
 # virtualenvwrapper
 # $ mkvirtualenv tddd-env2
 # $ workon tddd-env2
-
 
 # $ source PythonPit/bin/activate
 # $ pip freeze
@@ -57,7 +54,6 @@
 # docutils==0.12
 # Sphinx==1.3.1
 # Unipath==1.1
-
 
 # Coverage
 # coverage run --source='.' manage.py test myapp

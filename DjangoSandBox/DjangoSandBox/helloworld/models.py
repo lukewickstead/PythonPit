@@ -12,5 +12,6 @@ class HelloWorld(models.Model):
     def __str__(self):
         return "{0} {1}".format(self.first_name, self.now)
 
-    def get_absolute_url(self):
+    @staticmethod
+    def get_absolute_url():
         return reverse('helloworld:model')

@@ -29,6 +29,7 @@ msg = "Initial"
 
 def scope_test():
 
+    # noinspection PyShadowingNames
     def local_test():
         # msg is local. Changes are only existing inside the method
         msg = "local"

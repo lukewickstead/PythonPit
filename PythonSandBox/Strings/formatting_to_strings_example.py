@@ -15,7 +15,7 @@ print("\n*** Concatenating with KVP")
 data_table = {'One': 'And a one!', 'Two': 'And a two!'}
 print(type(data_table), data_table)
 print('One: {0[One]:s}; Two: {0[Two]:s}'.format(data_table))
-print('One: {One:s}; Two: {Two:s}'.format(**data_table))        # With Unpacking
+print('One: {One:s}; Two: {Two:s}'.format(**data_table))  # With Unpacking
 
 # Older versions of python used implicit ordinal positions
 print("\n*** Old School")
@@ -29,11 +29,11 @@ print("\n*** Format Specification Mini-Language")
 # {:.<x>f}      Format to x decimal places
 # {:+.<x>f}	    Format to x decimal places with +/- sign
 print("\n*** Formatting Floats")
-print("{0:.0f}".format(123.456))        # 0 dp
-print("{0:.2f}".format(123.456))        # 2 dp
-print("{0: 8.3f}".format(123.456))     # 3 dp with padding to 8 chars
-print("{0:+.3f}".format(123.456))       # 3 dp with +/-
-print("{0:-.3f}".format(-123.456))      # 3 dp with - if -ve.
+print("{0:.0f}".format(123.456))  # 0 dp
+print("{0:.2f}".format(123.456))  # 2 dp
+print("{0: 8.3f}".format(123.456))  # 3 dp with padding to 8 chars
+print("{0:+.3f}".format(123.456))  # 3 dp with +/-
+print("{0:-.3f}".format(-123.456))  # 3 dp with - if -ve.
 
 
 # Number Separator
@@ -52,18 +52,18 @@ print("{0:,}".format(-1121212123.456))  # , (comma) separator
 # {:^<x>d}	    Center space pad to a total of x characters in length
 
 print("\n*** Space Padding / Alignment")
-print("{0:0>5d}".format(1))     # Left pad with 0 to 5 chars
-print("{0:0<5d}".format(1))     # Right pad with 0 to 5 chars
-print("{0:0^5d}".format(1))     # Centre pad with 0 to 5 chars
-print("{0:5d}".format(1))       # Left pad with space to 5 chars
-print("{0:<5d}".format(1))      # Right pad with space to 5 chars
-print("{0:^5d}".format(1))      # Centre pad with space to 5 chars
+print("{0:0>5d}".format(1))  # Left pad with 0 to 5 chars
+print("{0:0<5d}".format(1))  # Right pad with 0 to 5 chars
+print("{0:0^5d}".format(1))  # Centre pad with 0 to 5 chars
+print("{0:5d}".format(1))  # Left pad with space to 5 chars
+print("{0:<5d}".format(1))  # Right pad with space to 5 chars
+print("{0:^5d}".format(1))  # Centre pad with space to 5 chars
 
 # Percentages
 # Format        Description
 # {:.<x>%}	    Format a percentage to x dp
 print("\n*** Formatting Percentages")
-print("{0:.3%}".format(0.25555))    # Format percentage to 3dp
+print("{0:.3%}".format(0.25555))  # Format percentage to 3dp
 
 
 # The Format Specification Mini-Language Specification
@@ -94,8 +94,8 @@ print("\n*** More On Format Specification Mini-Language")
 # g/G   = general, provides general rules for precision, rounding and when a max number before switching to exponential
 # %     = percentage
 
-print("{0:g}".format(1111123.456))      # As general
-print("{0:5.2n}".format(123.456))       # As number
-print("{0:b}".format(123))              # As Binary
-print("{0:x}".format(123))              # As hex
-print("{0:e}".format(123))              # As exponential
+print("{0:g}".format(1111123.456))  # As general
+print("{0:5.2n}".format(123.456))  # As number
+print("{0:b}".format(123))  # As Binary
+print("{0:x}".format(123))  # As hex
+print("{0:e}".format(123))  # As exponential

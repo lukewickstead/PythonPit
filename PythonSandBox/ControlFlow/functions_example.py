@@ -44,6 +44,7 @@ print("\n*** Default Arguments As A Reference Type")
 # passed in the same list instance which is created during runtime.
 
 
+# noinspection PyDefaultArgument
 def optional_argument_as_a_new_list(to_append, new_list=[]):
     new_list.append(to_append)
     return new_list

@@ -30,15 +30,15 @@ print(here.stem)                    # The  file name without the extension
 
 # Methods ( All return a Path instance )
 print("\n*** Path Methods")
-print(here.parent)                  # The path without the file name
-print(here.ancestor(5))             # Up x entities ( same as calling parent x times).
-print(here.ancestor(3).child("PythonSandBox", "StandardLibrary")) # Returns
+print(here.parent)                                                  # The path without the file name
+print(here.ancestor(5))                                             # Up x entities ( same as calling parent x times).
+print(here.ancestor(3).child("PythonSandBox", "StandardLibrary"))   # Returns
 
 print("\n*** Expand, Expand User and Expand Vars")
-print(Path("~").expand_user() )     # Expands ~ to a absolute path name
-print(Path("$HOME").expand_vars())  # Expands system variables
-print(Path("/home/luke/..").norm()) # Expands .. and . notation
-print(Path("$HOME/..").expand())    # Expands system variables, ~ and also ..
+print(Path("~").expand_user())          # Expands ~ to a absolute path name
+print(Path("$HOME").expand_vars())      # Expands system variables
+print(Path("/home/luke/..").norm())     # Expands .. and . notation
+print(Path("$HOME/..").expand())        # Expands system variables, ~ and also ..
 
 
 # Expands system variable and ~. Will also normalise the path ( remove redundant
@@ -46,14 +46,22 @@ print(Path("$HOME/..").expand())    # Expands system variables, ~ and also ..
 
 # File Attributes and permissions
 print("\n*** File Attributes and permissions")
+# noinspection PyArgumentList
 print(here.atime())                     # Last access time; seconds past epcoh
+# noinspection PyArgumentList
 print(here.ctime())                     # Last permission or ownership modification; windows is creation time;
+# noinspection PyArgumentList
 print(here.isfile())                    # Is a file; symbolic links are followed.
 print(here.isdir())                     # Is a directory; symbolic links are followed.
+# noinspection PyArgumentList
 print(here.islink())                    # Is a symbolic link
+# noinspection PyArgumentList
 print(here.ismount())                   # Is a mount point; ie the parent is on a different device.
+# noinspection PyArgumentList
 print(here.exists())                    # File exists; symbolic links are followed.
+# noinspection PyArgumentList
 print(here.lexists())                   # Same as exists but symbolic links are not followed.
+# noinspection PyArgumentList
 print(here.size())                      # File size in bytes.
 print(Path("/foo").isabsolute())        # Is absolute and not relative path
 

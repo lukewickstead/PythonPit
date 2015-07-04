@@ -3,6 +3,7 @@
 # Example of try and catch
 
 
+# noinspection PyBroadException
 def convert_to_int_basic(input_value):
     try:
         x = int(input_value)

@@ -36,7 +36,6 @@ class TestOneToMany(TestCase):
         self.assertEqual(Child.objects.get(parent=Parent.objects.get(name="Bob")).name, "Sophie")
 
     def test_predicate_child_set(self):
-
         # We can query child fields from the parent
         self.assertEqual(Parent.objects.filter(child__name="Sport").count(), 1)
         self.assertEqual(Parent.objects.filter(child__name__contains="S").count(), 3)

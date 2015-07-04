@@ -4,6 +4,7 @@
 #
 # An exception is caught if it is the same type, or has the defined type in it's ancestry (inherits from it)
 
+# noinspection PyBroadException
 try:
     f = open('foo.txt')
     s = f.readline()

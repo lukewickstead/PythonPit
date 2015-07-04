@@ -75,7 +75,7 @@ def extension(request):
 
 
 def urls(request):
-     return render(request, 'templatesintroduction/urls.html')
+    return render(request, 'templatesintroduction/urls.html')
 
 
 def includes(request):
@@ -87,4 +87,4 @@ def includes(request):
 
 
 def debug(request):
-     return render(request, 'templatesintroduction/debug.html')
+    return render(request, 'templatesintroduction/debug.html')
