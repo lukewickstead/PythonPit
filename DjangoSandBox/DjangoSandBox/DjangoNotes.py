@@ -1,8 +1,7 @@
 # TODO:
 #
-# Login, Security, Template Escaping, Layout/Styles, Requirements, Notes, Documentation, Relative Imports, DB Indexes,
-# Django Tool Bar, Admin, Sessions, Cookies, Logging, static files
-
+# Template Escaping, Layout/Styles, Requirements, Notes, Documentation, Relative Imports, DB Indexes,
+# Django Tool Bar, Admin, Sessions, Cookies, Logging, Static Files, Remove .idea/__pycache__. migration, sql
 
 # db.sqlite3 Username/Password = admin/Password
 # $ python manage.py createsuperuser --username=user --email=user@foo.com
@@ -28,11 +27,11 @@
 
 # Django/Python shell
 # python manage.py shell
-# python manage.py shell --settings=DjangoSandBox.settings.local
+# python manage.py shell --settings=DjangoSandBox.settings
 
 # Start development server
 # python manage.py runserver
-# django-admin runserver --settings=mysite.settings
+# django-admin runserver --settings=DjangoSandBox.settings
 
 # Stop development run server
 # ps auxw | grep runserver
@@ -42,10 +41,10 @@
 # pip install -r requirements.txt
 
 # virtualenvwrapper
-# $ mkvirtualenv tddd-env2
-# $ workon tddd-env2
+# $ mkvirtualenv myenv
+# $ workon myenv
 
-# $ source PythonPit/bin/activate
+# $ source myenv/bin/activate
 # $ pip freeze
 #
 # requirements.txt

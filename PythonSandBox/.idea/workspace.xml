@@ -1,34 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b0552b97-65d6-4cf6-a7f6-fcb64b110d16" name="Default" comment="Fixing missing db file">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../DjangoSandBox/DjangoSandBox/DjangoSandBox/db.sqlite3" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../.idea/ThePythonPit.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../DjangoSandBox/DjangoSandBox/authmodel/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../DjangoSandBox/DjangoSandBox/authmodel/migrations/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../DjangoSandBox/DjangoSandBox/authmodel/templates/authmodel/create_login.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../DjangoSandBox/DjangoSandBox/authmodel/forms.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../DjangoSandBox/DjangoSandBox/authmodel/templates/authmodel/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../DjangoSandBox/DjangoSandBox/authmodel/templates/authmodel/login.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../DjangoSandBox/DjangoSandBox/authmodel/templates/authmodel/logout.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../DjangoSandBox/DjangoSandBox/authmodel/models.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../DjangoSandBox/DjangoSandBox/authmodel/urls.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../DjangoSandBox/DjangoSandBox/authmodel/templates/authmodel/users.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../DjangoSandBox/DjangoSandBox/authmodel/views.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.ids" afterPath="$PROJECT_DIR$/.idea/dataSources.ids" />
+    <list default="true" id="b0552b97-65d6-4cf6-a7f6-fcb64b110d16" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../DjangoSandBox/DjangoSandBox/DjangoNotes.py" afterPath="$PROJECT_DIR$/../DjangoSandBox/DjangoSandBox/DjangoNotes.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/PythonSandBox.iml" afterPath="$PROJECT_DIR$/.idea/PythonSandBox.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../DjangoSandBox/DjangoSandBox/DjangoSandBox/config/base.py" afterPath="$PROJECT_DIR$/../DjangoSandBox/DjangoSandBox/DjangoSandBox/config/base.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../DjangoSandBox/DjangoSandBox/home/templates/home/home.html" afterPath="$PROJECT_DIR$/../DjangoSandBox/DjangoSandBox/home/templates/home/home.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dictionaries/luke.xml" afterPath="$PROJECT_DIR$/.idea/dictionaries/luke.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../DjangoSandBox/DjangoSandBox/modelsadvanced/models.py" afterPath="$PROJECT_DIR$/../DjangoSandBox/DjangoSandBox/modelsadvanced/models.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../DjangoSandBox/DjangoSandBox/DjangoSandBox/urls.py" afterPath="$PROJECT_DIR$/../DjangoSandBox/DjangoSandBox/DjangoSandBox/urls.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="PythonSandBox.iws" />
@@ -244,105 +218,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="base.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/../DjangoSandBox/DjangoSandBox/DjangoSandBox/config/base.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.738255">
-              <caret line="61" column="1" selection-start-line="61" selection-start-column="1" selection-end-line="61" selection-end-column="1" />
-              <folding>
-                <element signature="e#324#333#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="dev.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../DjangoSandBox/DjangoSandBox/DjangoSandBox/config/dev.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="3" column="21" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DjangoNotes.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="DjangoNotes.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../DjangoSandBox/DjangoSandBox/DjangoNotes.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="2" column="9" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="9" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="home.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../DjangoSandBox/DjangoSandBox/home/templates/home/home.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-15.625">
-              <caret line="26" column="51" selection-start-line="26" selection-start-column="51" selection-end-line="26" selection-end-column="51" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../DjangoSandBox/DjangoSandBox/authmodel/templates/authmodel/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-6.375">
-              <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../DjangoSandBox/DjangoSandBox/authmodel/models.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="19" column="51" selection-start-line="19" selection-start-column="51" selection-end-line="19" selection-end-column="69" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PopulatePersonBase.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../DjangoSandBox/DjangoSandBox/modelsintroduction/populations/PopulatePersonBase.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="30" column="23" selection-start-line="30" selection-start-column="23" selection-end-line="30" selection-end-column="23" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../DjangoSandBox/DjangoSandBox/DjangoSandBox/settings.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="25" selection-start-line="0" selection-start-column="25" selection-end-line="0" selection-end-column="25" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../DjangoSandBox/DjangoSandBox/authmodel/urls.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="12" column="77" selection-start-line="12" selection-start-column="77" selection-end-line="12" selection-end-column="77" />
-              <folding>
-                <element signature="e#0#42#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../DjangoSandBox/DjangoSandBox/authmodel/views.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="18" column="33" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
+            <state vertical-scroll-proportion="1.1022044">
+              <caret line="46" column="29" selection-start-line="46" selection-start-column="29" selection-end-line="46" selection-end-column="29" />
               <folding />
             </state>
           </provider>
@@ -562,11 +442,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="authmodel" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="migrations" />
+              <option name="myItemId" value="DjangoSandBox" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1150,7 +1026,13 @@
       <option name="project" value="LOCAL" />
       <updated>1436006373216</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Auth model examples">
+      <created>1436021367205</created>
+      <option name="number" value="00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1436021367205</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TodoView">
@@ -1173,7 +1055,7 @@
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3962264" sideWeight="0.70150435" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32914045" sideWeight="0.5022393" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2583763" sideWeight="0.3629139" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.6572327" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.4465409" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32977304" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Django errors" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.60587" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4811321" sideWeight="0.49197862" order="6" side_tool="false" content_ui="tabs" />
@@ -1238,7 +1120,8 @@
     <MESSAGE value="Updating todo notes in PythonSandBox" />
     <MESSAGE value="Fixing PEP and code inspections" />
     <MESSAGE value="Fixing Code Formatting" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixing Code Formatting" />
+    <MESSAGE value="Auth model examples" />
+    <option name="LAST_COMMIT_MESSAGE" value="Auth model examples" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1631,7 +1514,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../DjangoSandBox/DjangoSandBox/authmodel/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state vertical-scroll-proportion="0.95637584">
           <caret line="19" column="51" selection-start-line="19" selection-start-column="51" selection-end-line="19" selection-end-column="69" />
           <folding />
         </state>
@@ -1639,7 +1522,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../DjangoSandBox/DjangoSandBox/authmodel/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state vertical-scroll-proportion="0.60402685">
           <caret line="12" column="77" selection-start-line="12" selection-start-column="77" selection-end-line="12" selection-end-column="77" />
           <folding>
             <element signature="e#0#42#0" expanded="true" />
@@ -1649,7 +1532,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../DjangoSandBox/DjangoSandBox/home/templates/home/home.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-15.625">
+        <state vertical-scroll-proportion="1.3686131">
           <caret line="26" column="51" selection-start-line="26" selection-start-column="51" selection-end-line="26" selection-end-column="51" />
           <folding />
         </state>
@@ -1657,7 +1540,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../DjangoSandBox/DjangoSandBox/DjangoSandBox/config/dev.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state vertical-scroll-proportion="0.15100671">
           <caret line="3" column="21" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
           <folding />
         </state>
@@ -1665,7 +1548,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../DjangoSandBox/DjangoSandBox/modelsintroduction/populations/PopulatePersonBase.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state vertical-scroll-proportion="0.7516779">
           <caret line="30" column="23" selection-start-line="30" selection-start-column="23" selection-end-line="30" selection-end-column="23" />
           <folding />
         </state>
@@ -1673,7 +1556,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../DjangoSandBox/DjangoSandBox/authmodel/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state vertical-scroll-proportion="0.75503355">
           <caret line="18" column="33" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
           <folding />
         </state>
@@ -1681,16 +1564,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../DjangoSandBox/DjangoSandBox/authmodel/templates/authmodel/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.375">
+        <state vertical-scroll-proportion="0.55839413">
           <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../DjangoSandBox/DjangoSandBox/DjangoNotes.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="2" column="9" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="9" />
           <folding />
         </state>
       </provider>
@@ -1705,11 +1580,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../DjangoSandBox/DjangoSandBox/DjangoSandBox/config/base.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.738255">
-          <caret line="61" column="1" selection-start-line="61" selection-start-column="1" selection-end-line="61" selection-end-column="1" />
+        <state vertical-scroll-proportion="2.7181208">
+          <caret line="54" column="30" selection-start-line="54" selection-start-column="30" selection-end-line="54" selection-end-column="30" />
           <folding>
             <element signature="e#324#333#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../DjangoSandBox/DjangoSandBox/DjangoNotes.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.1022044">
+          <caret line="46" column="29" selection-start-line="46" selection-start-column="29" selection-end-line="46" selection-end-column="29" />
+          <folding />
         </state>
       </provider>
     </entry>
