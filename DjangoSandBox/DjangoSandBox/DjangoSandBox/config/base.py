@@ -40,6 +40,10 @@ INSTALLED_APPS = (
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+
+    # http://django-debug-toolbar.readthedocs.org/
+    'debug_toolbar',
+
     'helloworld',
     'modelsintroduction',
     'templatesintroduction',
