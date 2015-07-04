@@ -17,4 +17,3 @@ except Exception as err:
     print("Exception: {0}".format(err))
 except:
     print("Won't ever execute due to the except condition above")
-

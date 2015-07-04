@@ -11,7 +11,6 @@
 
 from collections import namedtuple
 
-
 tuple_one = 1, 2, 3
 tuple_two = 1,
 
@@ -49,12 +48,12 @@ print(one, two, three, four)
 
 # Tuples can use all list style functionality as long as it does not edit the data
 print("\n*** List Style Functionality")
-print(a_tuple)              # Prints complete list
-print(a_tuple[0])           # Prints first element of the list
-print(a_tuple[1:3])         # Prints elements starting from 2nd till 3rd
-print(a_tuple[2:])          # Prints elements starting from 3rd element
-print(a_tuple * 2)          # Prints list two times
-print(a_tuple + a_tuple)    # Prints concatenated tuples
+print(a_tuple)  # Prints complete list
+print(a_tuple[0])  # Prints first element of the list
+print(a_tuple[1:3])  # Prints elements starting from 2nd till 3rd
+print(a_tuple[2:])  # Prints elements starting from 3rd element
+print(a_tuple * 2)  # Prints list two times
+print(a_tuple + a_tuple)  # Prints concatenated tuples
 
 print("\n*** Named Tuples")
 Person = namedtuple("Person", ["name", "age"])

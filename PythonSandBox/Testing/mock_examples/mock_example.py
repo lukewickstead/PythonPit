@@ -73,4 +73,3 @@ print(mock.called)
 
 # mock.side_effect = [5, 4, 3, 2, 1]
 # mock(), mock(), mock()
-

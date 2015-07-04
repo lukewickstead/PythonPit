@@ -6,7 +6,6 @@ from unittest import TestCase
 
 
 class TestFixtureExample(TestCase):
-
     def setUp(self):
         # Set up / initialise before a test
         # If this fails then no tests will be run

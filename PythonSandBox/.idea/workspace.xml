@@ -1,64 +1,82 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b0552b97-65d6-4cf6-a7f6-fcb64b110d16" name="Default" comment="Updating todo notes in PythonSandBox">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.ids" afterPath="$PROJECT_DIR$/.idea/dataSources.ids" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../DjangoSandBox/DjangoSandBox/formsintroduction/migrations/0001_initial.py" afterPath="$PROJECT_DIR$/../DjangoSandBox/DjangoSandBox/formsintroduction/migrations/0001_initial.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../DjangoSandBox/DjangoSandBox/modelsadvanced/migrations/0001_initial.py" afterPath="$PROJECT_DIR$/../DjangoSandBox/DjangoSandBox/modelsadvanced/migrations/0001_initial.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../DjangoSandBox/DjangoSandBox/DjangoNotes.py" afterPath="$PROJECT_DIR$/../DjangoSandBox/DjangoSandBox/DjangoNotes.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../DjangoSandBox/DjangoSandBox/modelsintroduction/populations/PopulatePersonBase.py" afterPath="$PROJECT_DIR$/../DjangoSandBox/DjangoSandBox/modelsintroduction/populations/PopulatePersonBase.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../DjangoSandBox/DjangoSandBox/modelsintroduction/populations/PopulatePersonByBulkCreate.py" afterPath="$PROJECT_DIR$/../DjangoSandBox/DjangoSandBox/modelsintroduction/populations/PopulatePersonByBulkCreate.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../DjangoSandBox/DjangoSandBox/modelsintroduction/populations/PopulatePersonByConstructor.py" afterPath="$PROJECT_DIR$/../DjangoSandBox/DjangoSandBox/modelsintroduction/populations/PopulatePersonByConstructor.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../DjangoSandBox/DjangoSandBox/modelsintroduction/populations/PopulatePersonByCreate.py" afterPath="$PROJECT_DIR$/../DjangoSandBox/DjangoSandBox/modelsintroduction/populations/PopulatePersonByCreate.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../DjangoSandBox/DjangoSandBox/modelsintroduction/populations/PopulatePersonByEmptyConstructor.py" afterPath="$PROJECT_DIR$/../DjangoSandBox/DjangoSandBox/modelsintroduction/populations/PopulatePersonByEmptyConstructor.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../DjangoSandBox/DjangoSandBox/modelsintroduction/populations/PopulatePersonByGetOrCreate.py" afterPath="$PROJECT_DIR$/../DjangoSandBox/DjangoSandBox/modelsintroduction/populations/PopulatePersonByGetOrCreate.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../DjangoSandBox/DjangoSandBox/modelsintroduction/populations/PopulatePersonByUpdateOrCreate.py" afterPath="$PROJECT_DIR$/../DjangoSandBox/DjangoSandBox/modelsintroduction/populations/PopulatePersonByUpdateOrCreate.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/PythonSandBox.iml" afterPath="$PROJECT_DIR$/.idea/PythonSandBox.iml" />
+    <list default="true" id="b0552b97-65d6-4cf6-a7f6-fcb64b110d16" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Operators/arithmetic_operators_examples.py" afterPath="$PROJECT_DIR$/Operators/arithmetic_operators_examples.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Testing/unittest_examples/assertions_example.py" afterPath="$PROJECT_DIR$/Testing/unittest_examples/assertions_example.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Operators/assignment_operators_example.py" afterPath="$PROJECT_DIR$/Operators/assignment_operators_example.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Testing/unittest_examples/attribute_examples.py" afterPath="$PROJECT_DIR$/Testing/unittest_examples/attribute_examples.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/InputOutput/binary_file_io_example.py" afterPath="$PROJECT_DIR$/InputOutput/binary_file_io_example.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Operators/bitwise_operators_example.py" afterPath="$PROJECT_DIR$/Operators/bitwise_operators_example.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Classes/class_example.py" afterPath="$PROJECT_DIR$/Classes/class_example.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Operators/comparison_operators_example.py" afterPath="$PROJECT_DIR$/Operators/comparison_operators_example.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NumericalDataTypes/complex_example.py" afterPath="$PROJECT_DIR$/NumericalDataTypes/complex_example.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DateTimes/date_example.py" afterPath="$PROJECT_DIR$/DateTimes/date_example.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DateTimes/datetime_example.py" afterPath="$PROJECT_DIR$/DateTimes/datetime_example.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NumericalDataTypes/decimal_example.py" afterPath="$PROJECT_DIR$/NumericalDataTypes/decimal_example.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Collections/dictionary_example.py" afterPath="$PROJECT_DIR$/Collections/dictionary_example.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Testing/doc_test_example.py" afterPath="$PROJECT_DIR$/Testing/doc_test_example.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Exceptions/exception_details_example.py" afterPath="$PROJECT_DIR$/Exceptions/exception_details_example.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Exceptions/exception_exc_info_example.py" afterPath="$PROJECT_DIR$/Exceptions/exception_exc_info_example.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NumericalDataTypes/float_example.py" afterPath="$PROJECT_DIR$/NumericalDataTypes/float_example.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DateTimes/formatting_date_time_and_datetime_example.py" afterPath="$PROJECT_DIR$/DateTimes/formatting_date_time_and_datetime_example.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Strings/formatting_to_strings_example.py" afterPath="$PROJECT_DIR$/Strings/formatting_to_strings_example.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NumericalDataTypes/fraction_example.py" afterPath="$PROJECT_DIR$/NumericalDataTypes/fraction_example.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ControlFlow/function_documentation_example.py" afterPath="$PROJECT_DIR$/ControlFlow/function_documentation_example.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ControlFlow/functions_example.py" afterPath="$PROJECT_DIR$/ControlFlow/functions_example.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/StandardLibrary/glob_example.py" afterPath="$PROJECT_DIR$/StandardLibrary/glob_example.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Strings/hello_world_example.py" afterPath="$PROJECT_DIR$/Strings/hello_world_example.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Operators/identity_operators_example.py" afterPath="$PROJECT_DIR$/Operators/identity_operators_example.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ControlFlow/if_elif_else_example.py" afterPath="$PROJECT_DIR$/ControlFlow/if_elif_else_example.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Classes/immutable_mutable_example.py" afterPath="$PROJECT_DIR$/Classes/immutable_mutable_example.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Classes/inheritance_example.py" afterPath="$PROJECT_DIR$/Classes/inheritance_example.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NumericalDataTypes/int_example.py" afterPath="$PROJECT_DIR$/NumericalDataTypes/int_example.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ControlFlow/iterator_example.py" afterPath="$PROJECT_DIR$/ControlFlow/iterator_example.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/InputOutput/json_example.py" afterPath="$PROJECT_DIR$/InputOutput/json_example.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ControlFlow/lambda_example.py" afterPath="$PROJECT_DIR$/ControlFlow/lambda_example.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Collections/list_comprehensions_example.py" afterPath="$PROJECT_DIR$/Collections/list_comprehensions_example.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Collections/list_example.py" afterPath="$PROJECT_DIR$/Collections/list_example.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Collections/list_ordering_example.py" afterPath="$PROJECT_DIR$/Collections/list_ordering_example.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Collections/list_slicing_example.py" afterPath="$PROJECT_DIR$/Collections/list_slicing_example.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Collections/lists_and_linq_style_functionality.py" afterPath="$PROJECT_DIR$/Collections/lists_and_linq_style_functionality.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/StandardLibrary/logging_example.py" afterPath="$PROJECT_DIR$/StandardLibrary/logging_example.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Operators/logical_operators_example.py" afterPath="$PROJECT_DIR$/Operators/logical_operators_example.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dictionaries/luke.xml" afterPath="$PROJECT_DIR$/.idea/dictionaries/luke.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ControlFlow/loops_example.py" afterPath="$PROJECT_DIR$/ControlFlow/loops_example.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Testing/mock_examples/magic_mock_example.py" afterPath="$PROJECT_DIR$/Testing/mock_examples/magic_mock_example.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NumericalDataTypes/math_example.py" afterPath="$PROJECT_DIR$/NumericalDataTypes/math_example.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Operators/membership_operators_example.py" afterPath="$PROJECT_DIR$/Operators/membership_operators_example.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../DjangoSandBox/DjangoSandBox/helloworld/models.py" afterPath="$PROJECT_DIR$/../DjangoSandBox/DjangoSandBox/helloworld/models.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Testing/mock_examples/mock_example.py" afterPath="$PROJECT_DIR$/Testing/mock_examples/mock_example.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Operators/operator_precedence_example.py" afterPath="$PROJECT_DIR$/Operators/operator_precedence_example.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/StandardLibrary/os_example.py" afterPath="$PROJECT_DIR$/StandardLibrary/os_example.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Classes/passing_immutable_mutable_objects_example.py" afterPath="$PROJECT_DIR$/Classes/passing_immutable_mutable_objects_example.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../DjangoSandBox/DjangoSandBox/modelsadvanced/populations/populate_man_and_dog.py" afterPath="$PROJECT_DIR$/../DjangoSandBox/DjangoSandBox/modelsadvanced/populations/populate_man_and_dog.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Testing/mock_examples/patch_example.py" afterPath="$PROJECT_DIR$/Testing/mock_examples/patch_example.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/InputOutput/pickle_example.py" afterPath="$PROJECT_DIR$/InputOutput/pickle_example.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Collections/queue_example.py" afterPath="$PROJECT_DIR$/Collections/queue_example.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Exceptions/raising_an_exception.py" afterPath="$PROJECT_DIR$/Exceptions/raising_an_exception.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NumericalDataTypes/random_example.py" afterPath="$PROJECT_DIR$/NumericalDataTypes/random_example.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/StandardLibrary/regular_expressions_example.py" afterPath="$PROJECT_DIR$/StandardLibrary/regular_expressions_example.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Exceptions/rethrowing_an_exception.py" afterPath="$PROJECT_DIR$/Exceptions/rethrowing_an_exception.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Classes/scope_example.py" afterPath="$PROJECT_DIR$/Classes/scope_example.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Collections/set_example.py" afterPath="$PROJECT_DIR$/Collections/set_example.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/StandardLibrary/shutil_example.py" afterPath="$PROJECT_DIR$/StandardLibrary/shutil_example.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Testing/unittest_examples/simple_example.py" afterPath="$PROJECT_DIR$/Testing/unittest_examples/simple_example.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Collections/stack_example.py" afterPath="$PROJECT_DIR$/Collections/stack_example.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Strings/strings_example.py" afterPath="$PROJECT_DIR$/Strings/strings_example.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Exceptions/subclassing_exception_example.py" afterPath="$PROJECT_DIR$/Exceptions/subclassing_exception_example.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../DjangoSandBox/DjangoSandBox/modelsadvanced/tests/crud/test_create_multi_table_base_child.py" afterPath="$PROJECT_DIR$/../DjangoSandBox/DjangoSandBox/modelsadvanced/tests/crud/test_create_multi_table_base_child.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../DjangoSandBox/DjangoSandBox/modelsadvanced/tests/crud/test_create_parent_and_child.py" afterPath="$PROJECT_DIR$/../DjangoSandBox/DjangoSandBox/modelsadvanced/tests/crud/test_create_parent_and_child.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../DjangoSandBox/DjangoSandBox/modelsadvanced/tests/crud/test_create_proxy_child.py" afterPath="$PROJECT_DIR$/../DjangoSandBox/DjangoSandBox/modelsadvanced/tests/crud/test_create_proxy_child.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../DjangoSandBox/DjangoSandBox/modelsadvanced/tests/joinpredicatetests/test_one_to_many.py" afterPath="$PROJECT_DIR$/../DjangoSandBox/DjangoSandBox/modelsadvanced/tests/joinpredicatetests/test_one_to_many.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Testing/unittest_examples/test_fixture_example.py" afterPath="$PROJECT_DIR$/Testing/unittest_examples/test_fixture_example.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Testing/unittest_examples/testsuite_example.py" afterPath="$PROJECT_DIR$/Testing/unittest_examples/testsuite_example.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/InputOutput/text_file_io_example.py" afterPath="$PROJECT_DIR$/InputOutput/text_file_io_example.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DateTimes/time_example.py" afterPath="$PROJECT_DIR$/DateTimes/time_example.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DateTimes/timedelta_example.py" afterPath="$PROJECT_DIR$/DateTimes/timedelta_example.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DateTimes/timeit_example.py" afterPath="$PROJECT_DIR$/DateTimes/timeit_example.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Exceptions/try_catch_else_finally.py" afterPath="$PROJECT_DIR$/Exceptions/try_catch_else_finally.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Exceptions/try_catch_example.py" afterPath="$PROJECT_DIR$/Exceptions/try_catch_example.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Exceptions/try_catch_granularity.py" afterPath="$PROJECT_DIR$/Exceptions/try_catch_granularity.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Exceptions/try_finally_example.py" afterPath="$PROJECT_DIR$/Exceptions/try_finally_example.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Collections/tuple_example.py" afterPath="$PROJECT_DIR$/Collections/tuple_example.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/StandardLibrary/unipath_example.py" afterPath="$PROJECT_DIR$/StandardLibrary/unipath_example.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/StandardLibrary/urllib_request_example.py" afterPath="$PROJECT_DIR$/StandardLibrary/urllib_request_example.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../DjangoSandBox/DjangoSandBox/templatesintroduction/urls.py" afterPath="$PROJECT_DIR$/../DjangoSandBox/DjangoSandBox/templatesintroduction/urls.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../DjangoSandBox/DjangoSandBox/viewsintroduction/urls.py" afterPath="$PROJECT_DIR$/../DjangoSandBox/DjangoSandBox/viewsintroduction/urls.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../DjangoSandBox/DjangoSandBox/templatesintroduction/views.py" afterPath="$PROJECT_DIR$/../DjangoSandBox/DjangoSandBox/templatesintroduction/views.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../DjangoSandBox/DjangoSandBox/viewsintroduction/views.py" afterPath="$PROJECT_DIR$/../DjangoSandBox/DjangoSandBox/viewsintroduction/views.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/InputOutput/user_input_example.py" afterPath="$PROJECT_DIR$/InputOutput/user_input_example.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Exceptions/warnings_example.py" afterPath="$PROJECT_DIR$/Exceptions/warnings_example.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -274,98 +292,7 @@
     <favorites_list name="PythonSandBox" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="__init__.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../DjangoSandBox/DjangoSandBox/DjangoSandBox/__init__.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="base.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/../DjangoSandBox/DjangoSandBox/DjangoSandBox/config/base.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="1.3087249">
-              <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="dev.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../DjangoSandBox/DjangoSandBox/DjangoSandBox/config/dev.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DjangoNotes.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../DjangoSandBox/DjangoSandBox/DjangoNotes.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="48" column="14" selection-start-line="48" selection-start-column="14" selection-end-line="48" selection-end-column="14" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PopulatePersonBase.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../DjangoSandBox/DjangoSandBox/modelsintroduction/populations/PopulatePersonBase.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="34" column="17" selection-start-line="34" selection-start-column="17" selection-end-line="34" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PopulatePersonByConstructor.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../DjangoSandBox/DjangoSandBox/modelsintroduction/populations/PopulatePersonByConstructor.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="14" column="19" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../DjangoSandBox/DjangoSandBox/DjangoSandBox/settings.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="25" selection-start-line="0" selection-start-column="25" selection-end-line="0" selection-end-column="25" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="test.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../DjangoSandBox/DjangoSandBox/DjangoSandBox/config/test.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="1" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../DjangoSandBox/DjangoSandBox/viewsintroduction/views.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="8" column="15" selection-start-line="8" selection-start-column="15" selection-end-line="8" selection-end-column="15" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -1109,7 +1036,13 @@
       <option name="project" value="LOCAL" />
       <updated>1435947153609</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Fixing PEP and code inspections">
+      <created>1436006178392</created>
+      <option name="number" value="00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1436006178392</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TodoView">
@@ -1125,6 +1058,7 @@
     <frame x="-1" y="0" width="1922" height="1080" extended-state="6" />
     <editor active="false" />
     <layout>
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32977304" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32309747" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.48197597" sideWeight="0.49197862" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3257677" sideWeight="0.49954003" order="1" side_tool="false" content_ui="tabs" />
@@ -1143,7 +1077,6 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3962264" sideWeight="0.70150435" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32977304" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2736093" sideWeight="0.5053619" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Django errors" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.6061415" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1195,7 +1128,8 @@
     <MESSAGE value="Adding int __init__ files which seem to be ommited" />
     <MESSAGE value="Adding int __init__ and other missing files. Deleting non required files." />
     <MESSAGE value="Updating todo notes in PythonSandBox" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updating todo notes in PythonSandBox" />
+    <MESSAGE value="Fixing PEP and code inspections" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixing PEP and code inspections" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1216,14 +1150,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Strings/hello_world_example.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="53" column="17" selection-start-line="53" selection-start-column="17" selection-end-line="53" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Strings/strings_example.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1552,14 +1478,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../DjangoSandBox/DjangoSandBox/viewsintroduction/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="8" column="15" selection-start-line="8" selection-start-column="15" selection-end-line="8" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../DjangoSandBox/DjangoSandBox/modelsintroduction/populations/PopulatePersonByConstructor.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1618,8 +1536,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../DjangoSandBox/DjangoSandBox/DjangoSandBox/config/base.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.3087249">
+        <state vertical-scroll-proportion="0.0">
           <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../DjangoSandBox/DjangoSandBox/viewsintroduction/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.15100671">
+          <caret line="8" column="15" selection-start-line="8" selection-start-column="15" selection-end-line="8" selection-end-column="15" />
           <folding />
         </state>
       </provider>

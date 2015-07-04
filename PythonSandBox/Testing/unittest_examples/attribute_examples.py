@@ -8,7 +8,6 @@ from unittest import TestCase, skip, skipIf, skipUnless, expectedFailure, SkipTe
 
 
 class TestAttributes(TestCase):
-
     @skip("Test is not run")
     def test_skip(self):
         self.fail("This should not be run")

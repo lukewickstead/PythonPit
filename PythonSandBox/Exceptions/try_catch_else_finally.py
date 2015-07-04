@@ -17,5 +17,6 @@ def divide(x, y):
     finally:
         print("Executing the finally clause")
 
+
 divide(1, 2)
 divide(1, 0)
