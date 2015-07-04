@@ -6,5 +6,6 @@
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="DjangoTutorial" />
     <orderEntry type="module" module-name="DjangoSandBox" />
+    <orderEntry type="module" module-name="ThePythonPit" />
   </component>
 </module>

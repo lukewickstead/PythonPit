@@ -416,11 +416,9 @@
     </table>
     <table name="formsintroduction_modelfieldstoformfields" schema="" catalog="" type="TABLE">
       <column name="id" sqlType="INTEGER" precision="2000000000" scale="10" nullable="false" jdbcType="4"/>
-      <column name="ChoiceField" sqlType="VARCHAR(1)" precision="2000000000" scale="10" nullable="false" jdbcType="12"/>
       <column name="CharField" sqlType="VARCHAR(10)" precision="2000000000" scale="10" nullable="false" jdbcType="12"/>
       <column name="CommaSeparatedIntegerField" sqlType="VARCHAR(50)" precision="2000000000" scale="10" nullable="false" jdbcType="12"/>
       <column name="EmailField" sqlType="VARCHAR(254)" precision="2000000000" scale="10" nullable="false" jdbcType="12"/>
-      <column name="FilePathField" sqlType="VARCHAR(100)" precision="2000000000" scale="10" nullable="false" jdbcType="12"/>
       <column name="TextField" sqlType="TEXT" precision="2000000000" scale="10" nullable="false" jdbcType="12"/>
       <column name="URLField" sqlType="VARCHAR(200)" precision="2000000000" scale="10" nullable="false" jdbcType="12"/>
       <column name="DateField" sqlType="DATE" precision="2000000000" scale="10" nullable="false" jdbcType="12"/>
@@ -439,6 +437,7 @@
       <column name="GenericIPAddressField" sqlType="CHAR(39)" precision="2000000000" scale="10" nullable="false" jdbcType="12"/>
       <column name="ForeignKey_id" sqlType="INTEGER" precision="2000000000" scale="10" nullable="false" jdbcType="4"/>
       <column name="OneToOneField_id" sqlType="INTEGER" precision="2000000000" scale="10" nullable="false" jdbcType="4"/>
+      <column name="ChoiceField" sqlType="VARCHAR(3)" precision="2000000000" scale="10" nullable="false" jdbcType="12"/>
       <primary-key columns="id"/>
       <foreign-key name="#FAKE_formsintroduction_modelfieldstoformfields_1" columns="OneToOneField_id" ref-table="formsintroduction_childofone" ref-schema="" ref-catalog="" ref-columns="id" update-rule="3" delete-rule="3" deferrability="1"/>
       <foreign-key name="#FAKE_formsintroduction_modelfieldstoformfields_2" columns="ForeignKey_id" ref-table="formsintroduction_childofmany" ref-schema="" ref-catalog="" ref-columns="id" update-rule="3" delete-rule="3" deferrability="1"/>

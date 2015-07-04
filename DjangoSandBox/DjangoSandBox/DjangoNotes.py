@@ -1,11 +1,11 @@
-# TODO: Friday:     Testing
-# TODO: Saturday:   Login/Security/Template Escaping
-
-# TODO Minor:       Layout/Styles, Requirements file, notes, Documentation, coding style, relative imports, db indexes,
-#                   tool bar, Admin, sessions, cookies
+# TODO:
+#
+# Login, Security, Template Escaping, Layout/Styles, Requirements, Notes, Documentation, Relative Imports, DB Indexes,
+# Django Tool Bar, Admin, Sessions, Cookies, Logging, static files
 
 
 # db.sqlite3 Username/Password = admin/Password
+# $ python manage.py createsuperuser --username=user --email=user@foo.com
 
 # Check the version of Django
 # python -c "import django; "import django; print(django.get_version())"

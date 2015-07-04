@@ -10,6 +10,7 @@ https://docs.djangoproject.com/en/1.7/ref/settings/
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 import os
+
 from unipath import Path
 
 PROJECT_ROOT = Path(__file__).ancestor(3)
@@ -46,7 +47,8 @@ INSTALLED_APPS = (
     'modelsadvanced',
     'viewsintroduction',
     'formsintroduction',
-    'testintroduction'
+    'testintroduction',
+    'authmodel'
 )
 
 MIDDLEWARE_CLASSES = (
@@ -96,3 +98,5 @@ STATIC_URL = '/static/'
 TEMPLATE_DIRS = (
     os.path.join(BASE_DIR, 'templates'),
 )
+
+LOGIN_URL = '/auth/login/'

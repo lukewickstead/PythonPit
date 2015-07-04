@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Create Login</title>
+</head>
+<body>
+<h1>Create Login</h1>
+
+<form method="post" action="">
+    {% csrf_token %}
+    <table>{{ form.as_table }}</table>
+    <p><input type="submit" value="Create"/></p>
+</form>
+
+<span>
+    <a href="{% url 'auth:index' %}">Back</a>
+</span>
+</body>
+</html>

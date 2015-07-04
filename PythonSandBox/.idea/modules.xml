@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/../DjangoSandBox/DjangoSandBox/.idea/DjangoSandBox.iml" filepath="$PROJECT_DIR$/../DjangoSandBox/DjangoSandBox/.idea/DjangoSandBox.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/PythonSandBox.iml" filepath="$PROJECT_DIR$/.idea/PythonSandBox.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../.idea/ThePythonPit.iml" filepath="$PROJECT_DIR$/../.idea/ThePythonPit.iml" />
     </modules>
   </component>
 </project>

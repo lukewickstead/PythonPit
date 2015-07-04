@@ -170,7 +170,6 @@ class ProxyChild(ProxyParent):
 #
 # All functions allow include/exclude fields to control which fields are validated against.
 
-# TODO: Move validator
 def is_future_date_validator(value):
     if value <= date.today():
         raise ValidationError("{0} is not a future date.".format(value))

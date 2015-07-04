@@ -1,6 +1,7 @@
 <component name="ProjectDictionaryState">
   <dictionary name="luke">
     <words>
+      <w>authmodel</w>
       <w>backends</w>
       <w>clickjacking</w>
       <w>csrf</w>
