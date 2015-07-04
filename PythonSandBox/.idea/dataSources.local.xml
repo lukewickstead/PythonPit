@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="DjangoSandBox/DjangoSandBox/db.sqlite3" uuid="3d75b494-c13a-4891-b9bc-fc58603a608b" />
+    <data-source name="Django default" uuid="7abf4f18-392b-4e88-b5af-e270cc87db53" />
+    <data-source name="DjangoSandBox/DjangoSandBox/DjangoSandBox/db.sqlite3" uuid="dbedbbb7-ac9e-49ae-ae06-ad13b7c83aea" />
+  </component>
+</project>
