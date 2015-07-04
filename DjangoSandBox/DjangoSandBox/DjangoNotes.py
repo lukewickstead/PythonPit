@@ -65,6 +65,5 @@
 
 # git remove .idea
 # git rm --cached -r .idea
-# git add . -all
-# git commit
-# git push
+# git commit -m "Remove config"
+# git push origin master
