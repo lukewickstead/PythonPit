@@ -16,6 +16,7 @@
 # Create iniital schema required for all apps
 # python manage.py migrate
 
+
 # Make migrations, view migrations, check app for migrations, migrate
 # python manage.py makemigrations myapp
 # python manage.py sqlmigrate myapp 0001
@@ -64,3 +65,6 @@
 
 # git remove .idea
 # git rm --cached -r .idea
+# git add . -all
+# git commit
+# git push
