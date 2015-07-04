@@ -34,7 +34,7 @@ from datetime import datetime, date
 
 # Formatting Strings
 print("m-%d-%y: ", date.today().strftime("%m-%d-%y"))
-print("%d %b %Y:", datetime.now().strftime("%d %b %Y %X"))
+print("%d %b %Y %X:", datetime.now().strftime("%d %b %Y %X"))
 
 
 # isoformat

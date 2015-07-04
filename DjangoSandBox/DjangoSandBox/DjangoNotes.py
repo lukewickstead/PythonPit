@@ -1,4 +1,4 @@
-# TODO: Logging, Templates, Indexes, Static, Admin, Layout, Requirements, Notes, Imports, GitHub
+# TODO: Logging, Templates, Indexes, Static, AJAX, Admin, Layout, Requirements, Notes, Imports, GitHub
 
 # db.sqlite3 Username/Password = admin/Password
 # $ python manage.py createsuperuser --username=user --email=user@foo.com
@@ -60,3 +60,7 @@
 
 # Tests
 # python manage.py test --settings=DjangoSandBox.DjangoSandBox.config.test
+
+
+# git remove .idea
+# git rm --cached -r .idea
