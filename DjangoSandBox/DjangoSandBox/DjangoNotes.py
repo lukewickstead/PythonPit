@@ -1,7 +1,4 @@
-# TODO:
-#
-# Template Escaping, Layout/Styles, Requirements, Notes, Documentation, Relative Imports, DB Indexes,
-# Django Tool Bar, Admin, Sessions, Cookies, Logging, Static Files, Remove .idea/__pycache__. migration, sql
+# TODO: Logging, Templates, Indexes, Static, Admin, Layout, Requirements, Notes, Imports, GitHub
 
 # db.sqlite3 Username/Password = admin/Password
 # $ python manage.py createsuperuser --username=user --email=user@foo.com

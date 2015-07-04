@@ -3,26 +3,31 @@
 <head lang="en">
     <meta charset="UTF-8">
     <title>Index</title>
-
     <style>
-        span{ display: block; }
+        span {
+            display: block;
+        }
     </style>
 </head>
 <body>
-
-
 <h1>Hello World</h1>
     <span>
-        <a href="{% url 'helloworld:hello'%}">Hello</a>
+        <a href="{% url 'helloworld:hello' %}">Hello</a>
     </span>
     <span>
-        <a href="{% url 'helloworld:model'%}">Model</a>
+        <a href="{% url 'helloworld:model' %}">Model</a>
     </span>
     <span>
-        <a href="{% url 'helloworld:loader'%}">Load</a>
+        <a href="{% url 'helloworld:loader' %}">Load</a>
     </span>
     <span>
-        <a href="{% url 'helloworld:loader'%}">Template</a>
+        <a href="{% url 'helloworld:loader' %}">Template</a>
+    </span>
+    <span>
+        <a href="{% url 'helloworld:sessions' %}">Sessions</a>
+    </span>
+    <span>
+        <a href="{% url 'helloworld:cookies' %}">Cookies</a>
     </span>
 </body>
 </html>

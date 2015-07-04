@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Cookies</title>
+    <style>
+        span {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+
+<h1>Cookies</h1>
+
+<span>
+{% if first_hit %}
+    Your first hit!
+{% else %}
+    Hits: {{ hits }}
+{% endif %}
+</span>
+
+<span>
+    <a href="{% url 'helloworld:cookies' %}">Hit Me</a>
+</span>
+<span>
+    <a href="{% url 'helloworld:cookies_expire' %}">Expire</a>
+</span>
+<span>
+    <a href="{% url 'helloworld:cookies_test' %}">Test</a>
+</span>
+<span>
+    <a href="{% url 'helloworld:index' %}">Back</a>
+</span>
+</body>
+</html>

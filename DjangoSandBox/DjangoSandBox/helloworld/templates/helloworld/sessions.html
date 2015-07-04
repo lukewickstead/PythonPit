@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sessions</title>
+    <style>
+        span {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+<h1>Sessions</h1>
+
+{% if has_visited %}
+    <span>Visited: {{ visited }}</span>
+    <span>Expires: {{ expiry }}</span>
+{% else %}
+    First Page Land
+{% endif %}
+
+<span>
+    <a href="{% url 'helloworld:index' %}">Back</a>
+</span>
+<span>
+    <a href="{% url 'helloworld:sessions' %}">Reload</a>
+</span>
+<span>
+    <a href="{% url 'helloworld:sessions_clear' %}">Clear</a>
+</span>
+</body>
+</html>
