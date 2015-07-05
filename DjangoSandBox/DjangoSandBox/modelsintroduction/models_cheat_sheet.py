@@ -112,3 +112,15 @@ class FieldValidatorsExample(models.Model):
             MaxLengthValidator(10),
             RegexValidator("^[A-Z]{1,2}$"),
             custom_validator])
+
+
+class DbIndexedModelExample(models.Model):
+    """
+    This model will have two indexes; {one} and {two, three}
+    """
+    one = models.CharField(db_index=True)
+    two = models.CharField()
+    three = models.CharField()
+
+    class Meta:
+        index_together = ["two", "three"]
