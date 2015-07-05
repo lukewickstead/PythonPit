@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Static Files</title>
+
+    {% load staticfiles %}
+
+    <link rel="stylesheet" type="text/css" href="{% static 'css/styles.css' %}"/>
+</head>
+<body>
+
+<h1>Static Files</h1>
+
+<span>One</span>
+<span>Two</span>
+<span>Three</span>
+
+<img src="{% static 'imgs/tintin.jpg' %}" alt="My image"/>
+</body>
+</html>

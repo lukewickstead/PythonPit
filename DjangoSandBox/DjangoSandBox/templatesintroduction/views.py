@@ -90,3 +90,7 @@ def includes(request):
 
 def debug(request):
     return render(request, 'templatesintroduction/debug.html')
+
+
+def static_files(request):
+    return render(request, 'templatesintroduction/static_files.html')
