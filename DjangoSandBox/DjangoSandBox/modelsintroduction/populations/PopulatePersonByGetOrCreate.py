@@ -11,8 +11,6 @@ from modelsintroduction.models import Person
 
 
 class PopulatePersonByGetOrCreate(PopulatePersonBase):
-
-    @staticmethod
     def save_person(self, name, height, date_of_birth, sex):
         Person.objects.get_or_create(name=name, sex=sex, height=height, date_of_birth=date_of_birth)
 

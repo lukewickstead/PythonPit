@@ -32,6 +32,5 @@ class PopulatePersonBase:
         for name, height, date_of_birth, sex in self.raw_data:
             self.save_person(name, height, date_of_birth, sex)
 
-    @staticmethod
     def save_person(self, name, height, date_of_birth, sex):
         raise NotImplemented("Save Person is not implemented")
