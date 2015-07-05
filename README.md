@@ -5,6 +5,9 @@ Examples for Python and Django from [my blog](https://lukewickstead.wordpress.co
 There are two example sets; PythonSandBox and DjangoSandBox, please read the README.md for each project for additional 
 setup and configuration information.
 
+PythonSandBox has examples of Python and the standard library, DjangoSandBox has examples of Django.
+
+
 ## Python 3.4 ##
 
 I was using Python 3.4 as this was the latest version available on my Linux box by default. You might want to check
