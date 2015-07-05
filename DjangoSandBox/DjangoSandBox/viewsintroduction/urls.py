@@ -1,10 +1,10 @@
 # urls.py
-from viewsintroduction.views import PhoneAddressListView, PhoneAddressCreateView, PhoneAddressDeleteView, \
-    PhoneAddressDetailView, PhoneAddressUpdateView, PhoneContactCreateView, PhoneContactDeleteView, \
-    PhoneContactDetailView, PhoneContactListView, PhoneContactUpdateView
-
 from django.conf.urls import patterns, url
 from django.views.generic.base import RedirectView, TemplateView
+
+from .views import PhoneAddressListView, PhoneAddressCreateView, PhoneAddressDeleteView, \
+    PhoneAddressDetailView, PhoneAddressUpdateView, PhoneContactCreateView, PhoneContactDeleteView, \
+    PhoneContactDetailView, PhoneContactListView, PhoneContactUpdateView
 
 urlpatterns = \
     patterns('',

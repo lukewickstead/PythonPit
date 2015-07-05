@@ -2,8 +2,8 @@ from unittest import TestCase
 
 from django.db.models import Avg, Max, Min, Sum, Count
 
-from modelsintroduction.populations.PopulatePersonByConstructor import PopulatePersonByConstructor
-from modelsintroduction.models import Person
+from ...populations.PopulatePersonByConstructor import PopulatePersonByConstructor
+from ...models import Person
 
 
 class TestAggregates(TestCase):

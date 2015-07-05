@@ -1,7 +1,7 @@
 from unittest import TestCase
 
-from modelsadvanced.populations.populate_man_and_dog import populate
-from modelsadvanced.models import Man, Dog
+from ...populations.populate_man_and_dog import populate
+from ...models import Man, Dog
 
 
 class TestCreateAuthorBook(TestCase):

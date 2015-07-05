@@ -2,8 +2,8 @@ from unittest import TestCase
 
 from django.core.exceptions import ObjectDoesNotExist
 
-from modelsintroduction.populations.PopulatePersonByConstructor import PopulatePersonByConstructor
-from modelsintroduction.models import Person, OPTION_SEX_FEMALE
+from ...populations.PopulatePersonByConstructor import PopulatePersonByConstructor
+from ...models import Person, OPTION_SEX_FEMALE
 
 
 class TestGet(TestCase):

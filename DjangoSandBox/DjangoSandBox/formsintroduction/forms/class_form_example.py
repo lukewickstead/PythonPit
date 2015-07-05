@@ -1,8 +1,8 @@
+from django import forms
 from django.forms import ModelForm
 
-from django import forms
 from viewsintroduction.models import PhoneAddress
-from formsintroduction.validators import validate_name
+from ..validators import validate_name
 
 
 class ClassBasedForm(ModelForm):

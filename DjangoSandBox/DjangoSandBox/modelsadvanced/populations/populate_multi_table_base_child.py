@@ -6,7 +6,7 @@ import django
 
 django.setup()
 
-from modelsadvanced.models import MultiTableBaseChild
+from ..models import MultiTableBaseChild
 
 names = {"George", "Morgan", "Luke"}
 ages = {10, 20, 30}

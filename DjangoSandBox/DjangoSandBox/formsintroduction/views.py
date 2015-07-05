@@ -1,13 +1,12 @@
 from django.forms import modelform_factory
 from django.http import HttpResponse
-
 from django.shortcuts import render, redirect, get_object_or_404
 
-from formsintroduction.forms.bastic_form_example import BasicFormExample
-from formsintroduction.forms.class_form_example import ClassBasedForm
-from formsintroduction.models import ModelFieldsToFormFields
+from .forms.bastic_form_example import BasicFormExample
+from .forms.class_form_example import ClassBasedForm
+from .forms.complex_form_with_widgets import ComplexFormWithWidgets
+from .models import ModelFieldsToFormFields
 from viewsintroduction.models import PhoneAddress
-from formsintroduction.forms.complex_form_with_widgets import ComplexFormWithWidgets
 
 
 def index(request):

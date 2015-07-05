@@ -1,7 +1,7 @@
 from unittest import TestCase
 
-from modelsintroduction.models import Person, OPTION_SEX_FEMALE, OPTION_SEX_MALE
-from modelsintroduction.populations.PopulatePersonByConstructor import PopulatePersonByConstructor
+from ...models import Person, OPTION_SEX_FEMALE, OPTION_SEX_MALE
+from ...populations.PopulatePersonByConstructor import PopulatePersonByConstructor
 
 
 class TestUpdate(TestCase):

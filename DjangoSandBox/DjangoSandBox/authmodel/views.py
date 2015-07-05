@@ -4,7 +4,7 @@ from django.contrib.auth.models import User
 from django.core.urlresolvers import reverse
 from django.shortcuts import render, redirect
 
-from authmodel.forms import UserForm, UserLoginForm
+from .forms import UserForm, UserLoginForm
 
 
 def index(request):

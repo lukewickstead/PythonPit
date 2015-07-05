@@ -1,8 +1,9 @@
 from unittest import TestCase
 
 from django.db.models import Q, F
-from modelsintroduction.populations.PopulatePersonByConstructor import PopulatePersonByConstructor
-from modelsintroduction.models import Person, OPTION_SEX_FEMALE, OPTION_SEX_MALE
+
+from ...populations.PopulatePersonByConstructor import PopulatePersonByConstructor
+from ...models import Person, OPTION_SEX_FEMALE, OPTION_SEX_MALE
 
 # Reference:
 # https://docs.djangoproject.com/en/1.8/ref/models/querysets

@@ -1,7 +1,7 @@
 from unittest import TestCase
 
-from modelsintroduction.populations.PopulatePersonByBulkCreate import PopulatePersonByBulkCreate
-from modelsintroduction.models import Person
+from ...populations.PopulatePersonByBulkCreate import PopulatePersonByBulkCreate
+from ...models import Person
 
 
 class TestDeleteModel(TestCase):

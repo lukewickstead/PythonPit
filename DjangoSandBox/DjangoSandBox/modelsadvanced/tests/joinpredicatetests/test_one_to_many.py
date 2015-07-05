@@ -2,8 +2,8 @@ from unittest import TestCase
 
 from django.db.models import Count
 
-from modelsadvanced.populations.populate_parent_and_child import populate
-from modelsadvanced.models import Child, Parent
+from ...populations.populate_parent_and_child import populate
+from ...models import Child, Parent
 
 
 class TestOneToMany(TestCase):

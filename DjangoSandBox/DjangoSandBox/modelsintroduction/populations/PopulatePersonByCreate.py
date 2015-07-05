@@ -6,8 +6,8 @@ import django
 
 django.setup()
 
-from modelsintroduction.populations.PopulatePersonBase import PopulatePersonBase
-from modelsintroduction.models import Person
+from ..populations.PopulatePersonBase import PopulatePersonBase
+from ..models import Person
 
 
 class PopulatePersonByCreate(PopulatePersonBase):

@@ -6,7 +6,7 @@ import django
 
 django.setup()
 
-from modelsadvanced.models import Child, Parent
+from ..models import Child, Parent
 
 parent_names = ("Luke", "Dave", "Angus", "Bob", "Jim")
 child_names = ({"Junior", "Mark"}, {"Sport", "Jim", "Simon", "Carl", "Erik"}, {"Randy", "Bob"}, {"Sophie"}, {None})

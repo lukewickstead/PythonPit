@@ -1,7 +1,7 @@
 from unittest import TestCase
 
-from modelsadvanced.populations.populte_proxy_child import populate
-from modelsadvanced.models import ProxyChild, ProxyParent
+from ...populations.populte_proxy_child import populate
+from ...models import ProxyChild, ProxyParent
 
 
 class TestCreateProxyChild(TestCase):

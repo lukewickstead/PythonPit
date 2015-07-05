@@ -4,7 +4,7 @@
 # https://docs.djangoproject.com/en/1.8/topics/db/examples/one_to_one/
 
 from unittest import TestCase
-from modelsadvanced.models import Parent, Child, Author, Book
+from ...models import Parent, Child, Author, Book
 
 
 def delete_all(records):

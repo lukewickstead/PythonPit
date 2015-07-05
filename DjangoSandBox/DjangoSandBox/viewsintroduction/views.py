@@ -1,9 +1,10 @@
+from django.contrib import messages
+from django.core.urlresolvers import reverse
 from django.views.generic import DetailView
 from django.views.generic.edit import CreateView, UpdateView, DeleteView
 from django.views.generic.list import ListView
-from django.core.urlresolvers import reverse
-from django.contrib import messages
-from viewsintroduction.models import PhoneAddress, PhoneContact
+
+from .models import PhoneAddress, PhoneContact
 
 
 # Address Views

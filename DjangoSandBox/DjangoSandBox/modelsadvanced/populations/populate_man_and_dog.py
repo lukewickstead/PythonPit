@@ -6,7 +6,7 @@ import django
 
 django.setup()
 
-from modelsadvanced.models import Man, Dog
+from ..models import Man, Dog
 
 men_names = ["Luke", "Dave", "Angus"]
 dog_names = ["Fido", "Duke", "Buster"]

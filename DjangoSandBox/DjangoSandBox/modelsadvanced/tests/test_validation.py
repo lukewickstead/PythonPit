@@ -1,7 +1,9 @@
 from unittest import TestCase
 from datetime import date
+
 from django.core.exceptions import ValidationError
-from modelsadvanced.models import ContactDetails
+
+from ..models import ContactDetails
 
 
 class TestCreateAuthorBook(TestCase):

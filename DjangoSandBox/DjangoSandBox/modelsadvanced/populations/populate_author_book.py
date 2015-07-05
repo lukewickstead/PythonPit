@@ -6,7 +6,7 @@ import django
 
 django.setup()
 
-from modelsadvanced.models import Author, Book
+from ..models import Author, Book
 
 author_names = {"George Orwell", "W. Somerset Maugham", "Aldous Huxley"}
 book_names = {"1984", "Of Human Bondage", "Brave New World"}

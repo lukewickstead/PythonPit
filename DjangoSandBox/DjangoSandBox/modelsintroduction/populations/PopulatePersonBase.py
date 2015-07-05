@@ -1,6 +1,6 @@
 from datetime import date
 
-from modelsintroduction.models import Person, OPTION_SEX_FEMALE, OPTION_SEX_MALE
+from ..models import Person, OPTION_SEX_FEMALE, OPTION_SEX_MALE
 
 
 class PopulatePersonBase:

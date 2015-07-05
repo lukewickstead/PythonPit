@@ -1,7 +1,7 @@
 from unittest import TestCase
 
-from modelsadvanced.populations.populate_abstract_base_child import populate
-from modelsadvanced.models import AbstractBaseChild
+from ...populations.populate_abstract_base_child import populate
+from ...models import AbstractBaseChild
 
 
 class TestCreateAbstractBaseChild(TestCase):

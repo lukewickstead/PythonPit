@@ -1,5 +1,6 @@
 from django import forms
-from formsintroduction.validators import validate_name
+from ..validators import validate_name
+
 # Reference:
 # https://docs.djangoproject.com/en/1.8/topics/forms/modelforms/#field-types
 

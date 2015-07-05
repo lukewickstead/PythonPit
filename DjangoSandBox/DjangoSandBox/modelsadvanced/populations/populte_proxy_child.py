@@ -6,7 +6,7 @@ import django
 
 django.setup()
 
-from modelsadvanced.models import ProxyChild
+from ..models import ProxyChild
 
 names = {"George", "Morgan", "Luke"}
 

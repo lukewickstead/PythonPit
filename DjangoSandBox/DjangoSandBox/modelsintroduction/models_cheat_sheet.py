@@ -1,7 +1,7 @@
 from django.db import models
+from django.core.exceptions import ValidationError
 from django.core.validators import MinValueValidator, MaxValueValidator, RegexValidator, MinLengthValidator, \
     MaxLengthValidator
-from django.core.exceptions import ValidationError
 from django.utils import timezone
 
 

@@ -1,7 +1,7 @@
 from unittest import TestCase
 
-from modelsadvanced.populations.populate_multi_table_base_child import populate
-from modelsadvanced.models import MultiTableBaseChild, MultiTableBaseParent
+from ...populations.populate_multi_table_base_child import populate
+from ...models import MultiTableBaseChild, MultiTableBaseParent
 
 
 class TestCreateMultiTableBasedChild(TestCase):

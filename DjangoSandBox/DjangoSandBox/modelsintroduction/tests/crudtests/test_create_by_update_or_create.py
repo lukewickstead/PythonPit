@@ -1,7 +1,7 @@
 from unittest import TestCase
 
-from modelsintroduction.populations.PopulatePersonByUpdateOrCreate import PopulatePersonByUpdateOrCreate
-from modelsintroduction.models import Person
+from ...populations.PopulatePersonByUpdateOrCreate import PopulatePersonByUpdateOrCreate
+from ...models import Person
 
 
 class TestCreateByUpdaterCreate(TestCase):

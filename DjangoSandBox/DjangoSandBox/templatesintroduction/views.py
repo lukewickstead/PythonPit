@@ -1,6 +1,8 @@
+from datetime import timedelta
+
 from django.shortcuts import render
 from django.utils import timezone
-from datetime import timedelta
+
 # Good References:
 # https://docs.djangoproject.com/en/1.7/ref/templates/builtins
 

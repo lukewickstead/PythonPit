@@ -6,7 +6,7 @@ import django
 
 django.setup()
 
-from modelsadvanced.models import AbstractBaseChild
+from ..models import AbstractBaseChild
 
 names = {"George", "Morgan", "Luke"}
 ages = {10, 20, 30}

@@ -1,7 +1,7 @@
 from unittest import TestCase
 
-from modelsintroduction.populations.PopulatePersonByEmptyConstructor import PopulatePersonByEmptyConstructor
-from modelsintroduction.models import Person
+from ...populations.PopulatePersonByEmptyConstructor import PopulatePersonByEmptyConstructor
+from ...models import Person
 
 
 class TestCreateByEmptyConstructor(TestCase):
