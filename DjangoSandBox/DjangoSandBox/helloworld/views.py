@@ -1,12 +1,3 @@
-from datetime import datetime
-
-from django.core.urlresolvers import reverse
-from django.http import HttpResponse, HttpResponseNotFound, Http404, HttpResponseNotAllowed
-from django.shortcuts import render, redirect, render_to_response
-from django.template import loader, RequestContext
-from django.utils import timezone
-from django.views.decorators.http import require_http_methods, require_GET, require_POST
-
 # Reference:
 # https://docs.djangoproject.com/en/1.8/ref/views/
 # https://docs.djangoproject.com/en/1.8/ref/request-response
@@ -15,7 +6,19 @@ from django.views.decorators.http import require_http_methods, require_GET, requ
 # https://docs.djangoproject.com/en/1.8/topics/http/shortcuts
 # https://docs.djangoproject.com/en/1.8/topics/http/decorators
 
+from datetime import datetime
+import logging
+
+from django.core.urlresolvers import reverse
+from django.http import HttpResponse, HttpResponseNotFound, Http404, HttpResponseNotAllowed
+from django.shortcuts import render, redirect, render_to_response
+from django.template import loader, RequestContext
+from django.utils import timezone
+from django.views.decorators.http import require_http_methods, require_GET, require_POST
+
 from .models import HelloWorld
+
+logger = logging.getLogger(__name__)
 
 
 def index(request):
@@ -145,3 +148,23 @@ def error_as_404(request):
 
 def not_allowed(request):
     return HttpResponseNotAllowed("<h1>You are not allowed to see this</h1>")
+
+
+def with_logger(request):
+    logger.debug('This is some debug')
+    logger.info('This is information')
+    logger.warning('This is a warning')
+    logger.error('This is a error')
+    logger.critical('This is a critical')
+
+    logger.critical("Output with trace", exc_info=True)
+
+    try:
+        boom = 1 / 0
+        logger.debug("Looks like we have broke the compiler as 1/0 = {0}".format(boom))
+    except ZeroDivisionError as e:
+        logger.exception(e)
+
+    logger.critical('Final output to show we are logging still')
+
+    return HttpResponse("Logged output")
