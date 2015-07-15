@@ -6,16 +6,15 @@
 </head>
 <body>
 
-/
-{% autoescape on %}
-    Auto escape all variable output after any filters have been run.
 
+{% autoescape on %}
+    {{  toescape }}
     {% autoescape off %}
-        Exception block; not escaped here
+        {{  toescape }}
     {% endautoescape %}
 {% endautoescape %}
 
-
+<!-- Other Escape Tags -->
 {#escapejs#}
 {#fix_ampersands#}
 {#force_escape#}

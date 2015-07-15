@@ -3,6 +3,7 @@
 <head lang="en">
     <meta charset="UTF-8">
     <title>Includes</title>
+    {% load staticfiles %}
 </head>
 <body>
 
@@ -12,11 +13,13 @@
 
 {% include "templatesintroduction/include_one.html" %}
 {% include "templatesintroduction/include_one.html" with msg="This was overridden!!!" %}
-{% include "templatesintroduction/include_one.html" with wrongmsg="This was overridden!!!" only %}
+{% include "templatesintroduction/include_one.html" with foo="foo" only %}
 
 <h2>SSI</h2>
+
 If this pointed to a static file we would include the contents!!!
-{% ssi "include_one.html" %}
+
+{% ssi "/css/styles.css" %}
 
 </body>
 </html>

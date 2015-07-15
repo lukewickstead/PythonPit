@@ -89,8 +89,22 @@ def includes(request):
 
 
 def debug(request):
-    return render(request, 'templatesintroduction/debug.html')
+
+    context = {
+        'request': request
+    }
+
+    return render(request, 'templatesintroduction/debug.html', context)
 
 
 def static_files(request):
     return render(request, 'templatesintroduction/static_files.html')
+
+
+def escaping(request):
+
+    context = {
+        'toescape': "1 is < 2"
+    }
+
+    return render(request, 'templatesintroduction/escaping.html', context)

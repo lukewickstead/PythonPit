@@ -74,7 +74,7 @@
         {{ NotProvided|default:"Nothing was provided here!!!" }}
     </li>
     <li>
-        {{ False|default:"There value was false!" }}
+        {{ False|default:"The value was false!" }}
     </li>
     <li>
         {{ None|default_if_none:"Only displayed if this is None" }}
@@ -91,7 +91,7 @@
         The plural of colour is colour{{ 2 | pluralize }}.
     </li>
     <li>
-     The plural of person is pe{{ 2|pluralize:"erson,ople"}}.
+     The plural of person is pe{{ 2|pluralize:"rson,ople"}}.
     </li>
 </ul>
 

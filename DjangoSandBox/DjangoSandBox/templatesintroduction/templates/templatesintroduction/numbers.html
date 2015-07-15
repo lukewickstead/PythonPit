@@ -56,8 +56,12 @@
     11.1111 to -3dp = {{ 11.1111|floatformat:"-3" }}
 </span>
 <span>
-    11.1000 to -3dp = {{ 11.1111|floatformat:"3" }}
+    11 to 3dp = {{ 11|floatformat:"3" }}
 </span>
+<span>
+    11 to -3dp = {{ 11|floatformat:"-3" }}
+</span>
+
 
 <h2>Numbers as an array with get_digit</h2>
 <span>
@@ -65,9 +69,6 @@
 </span>
 
 <h2>Displaying telephone numbers with phone2numeric</h2>
-<span>
-+44 1752 319433 becomes{{ "+44 1752 319433"|phone2numeric }}
-</span>
 <span>
 +44 1752 HELLO becomes{{ "+44 1752 HELLO"|phone2numeric }}
 </span>

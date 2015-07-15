@@ -1,7 +1,7 @@
 from django.conf.urls import patterns, url
 
 from .views import index, collections, dates, conditions, strings, numbers, extension, urls, includes, debug, \
-    static_files
+    static_files, escaping
 
 urlpatterns = \
     patterns('',
@@ -12,6 +12,7 @@ urlpatterns = \
              url(r'^dates$', dates, name='dates'),
              url(r'^strings$', strings, name='strings'),
              url(r'^numbers$', numbers, name='numbers'),
+             url(r'^escaping', escaping, name="escaping"),
              url(r'^static$', static_files, name="static"),
              url(r'^includes$', includes, name='includes'),
              url(r'^extension$', extension, name='extension'),
