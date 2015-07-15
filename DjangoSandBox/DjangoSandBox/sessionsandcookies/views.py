@@ -54,9 +54,6 @@ def cookies_test(request):
 def cookies(request):
     hits = int(request.COOKIES.get('hits', '0'))
 
-    # hits = int(request.COOKIES.get('hits', '0'))
-    # print(request.COOKIES['HTTP_COOKIE'].get_expiry_age())
-
     first_hit = 'hits' not in request.COOKIES
 
     response = render_to_response('sessionsandcookies/cookies.html',

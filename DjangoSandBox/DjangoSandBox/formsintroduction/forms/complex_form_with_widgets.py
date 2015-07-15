@@ -3,8 +3,6 @@ from django.forms.extras.widgets import SelectDateWidget
 
 from ..models import TITLE_CHOICES, ChildOfOne, ChildManyToMany, ChildOfMany, ModelFieldsToFormFields
 
-
-
 # Reference:
 # https://docs.djangoproject.com/en/1.8/topics/forms/modelforms/#field-types
 # https://docs.djangoproject.com/en/1.8/ref/forms/widgets
