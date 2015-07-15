@@ -39,6 +39,7 @@ optional_argument_as_a_variable()
 
 print("\n*** Default Arguments As A Reference Type")
 
+
 # Reiterating the point, this is the same for mutable types; they are only ever created once.
 # Here we assign a list as default value. Every time the method is called without a new_list argument the method is
 # passed in the same list instance which is created during runtime.
@@ -54,6 +55,8 @@ for x in range(4):
     print(optional_argument_as_a_new_list(x))
 
 print("\n*** Default Arguments As Value Types")
+
+
 # Default parameters are evaluated only once.
 # Here the value type is immutable and hence is always defaulted to 1 no matter how many times it is incremented
 
@@ -67,6 +70,8 @@ for x in range(3):
     print(increment_optional_argument())
 
 print("\n*** Named Arguments")
+
+
 # All optional arguments can be called by name after all mandatory arguments
 
 
@@ -77,6 +82,8 @@ def named_arguments(a, b=2, c=3):
 named_arguments(2, c=1)
 
 print("\n*** * and ** arguments")
+
+
 # * Is all remaining arguments passed in as a tuple
 # ** Collects named arguments in a dictionary
 

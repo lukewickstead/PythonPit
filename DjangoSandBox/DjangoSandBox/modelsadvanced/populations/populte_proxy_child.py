@@ -24,6 +24,7 @@ def print_data():
 def save_multi_table_base_child(name):
     return ProxyChild.objects.get_or_create(name=name)[0]
 
+
 # Execution
 if __name__ == '__main__':
     populate()

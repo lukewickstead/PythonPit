@@ -5,7 +5,9 @@
     <title>Collection & Templates</title>
 
     <style>
-        span{ display: block; }
+        span {
+            display: block;
+        }
     </style>
 </head>
 <body>
@@ -15,10 +17,10 @@
 
 <h2>Iteration with for, endfor tags</h2>
 <ul>
-    {%  for colour in colours %}
-    <li>
-        {{  colour }}
-    </li>
+    {% for colour in colours %}
+        <li>
+            {{ colour }}
+        </li>
     {% endfor %}
 </ul>
 
@@ -27,7 +29,7 @@
 <ul>
     {% for number, letter in lettersandordinals %}
         <li>
-            {{ number }} ({{ letter  }})
+            {{ number }} ({{ letter }})
         </li>
     {% endfor %}
 </ul>
@@ -36,7 +38,7 @@
 <h2>The empty tag, an if for collection iterations</h2>
 {% for empty in emptycollection %}
     The collection is not empty
-    {%  empty %}
+{% empty %}
     This collection is empty!!!
 {% endfor %}
 
@@ -44,40 +46,40 @@
 <h2>Loop variables</h2>
 <table>
     <thead>
-        <tr>
-            <th>Number</th>
-            <th>forloop.counter</th>
-            <th>forloop.counter0</th>
-            <th>forloop.revcounter</th>
-            <th>forloop.revcounter0</th>
-            <th>forloop.first</th>
-            <th>forloop.last</th>
-        </tr>
-    </thead>
-    {% for number in numbers  %}
     <tr>
-        <td>
-            {{ number }}
-        </td>
-        <td>
-            {{ forloop.counter }}
-        </td>
-        <td>
-            {{ forloop.counter0 }}
-        </td>
-        <td>
-            {{ forloop.revcounter }}
-        </td>
-        <td>
-            {{ forloop.revcounter0 }}
-        </td>
-        <td>
-            {{ forloop.first }}
-        </td>
-        <td>
-            {{ forloop.last }}
-        </td>
+        <th>Number</th>
+        <th>forloop.counter</th>
+        <th>forloop.counter0</th>
+        <th>forloop.revcounter</th>
+        <th>forloop.revcounter0</th>
+        <th>forloop.first</th>
+        <th>forloop.last</th>
     </tr>
+    </thead>
+    {% for number in numbers %}
+        <tr>
+            <td>
+                {{ number }}
+            </td>
+            <td>
+                {{ forloop.counter }}
+            </td>
+            <td>
+                {{ forloop.counter0 }}
+            </td>
+            <td>
+                {{ forloop.revcounter }}
+            </td>
+            <td>
+                {{ forloop.revcounter0 }}
+            </td>
+            <td>
+                {{ forloop.first }}
+            </td>
+            <td>
+                {{ forloop.last }}
+            </td>
+        </tr>
     {% endfor %}
 </table>
 {#forloop.parentloop can be used to access the forloop of any parent loop#}
@@ -95,33 +97,33 @@
 
 <h2>Backwards iteration with the reversed tag</h2>
 <ul>
-{% for number in numbers reversed %}
-    <li>
-        {{ number }}
-    </li>
-{% endfor %}
+    {% for number in numbers reversed %}
+        <li>
+            {{ number }}
+        </li>
+    {% endfor %}
 </ul>
 
 
 <h2>Iteration identification with the cycle flag</h2>
 <table>
     <thead>
-        <tr>
-            <th>Colour</th>
-            <th>Cycle</th>
-            <th>Cycle as a variable</th>
-        </tr>
+    <tr>
+        <th>Colour</th>
+        <th>Cycle</th>
+        <th>Cycle as a variable</th>
+    </tr>
     </thead>
 
     {% for colour in colours %}
         <tr>
             <td>
-                {{  colour }}
+                {{ colour }}
             </td>
             <td>
                 {#Strings, numbers, varaibles can all be used #}
                 {#Use silent when you don't to iterate through the counts#}
-                {% cycle 'odd' 'even' as oddeven%}
+                {% cycle 'odd' 'even' as oddeven %}
             </td>
             <td>
                 {{ oddeven }}
@@ -158,18 +160,18 @@
 
 
 <h2>Grouping with the regroup tag</h2>
-{% regroup boysandgirls|dictsort:"sex" by sex as boys_and_girls_grouped  %}
+{% regroup boysandgirls|dictsort:"sex" by sex as boys_and_girls_grouped %}
 {#The grouping does not sort the data. | through dictsort if required#}
 <ul>
-{% for sex_group in boys_and_girls_grouped %}
-    <li>{{ sex_group.grouper | capfirst }}
-    <ul>
-        {% for item in sex_group.list %}
-          <li>{{ item.name }}: {{ item.age }}</li>
-        {% endfor %}
-    </ul>
-    </li>
-{% endfor %}
+    {% for sex_group in boys_and_girls_grouped %}
+        <li>{{ sex_group.grouper | capfirst }}
+            <ul>
+                {% for item in sex_group.list %}
+                    <li>{{ item.name }}: {{ item.age }}</li>
+                {% endfor %}
+            </ul>
+        </li>
+    {% endfor %}
 </ul>
 
 
@@ -199,10 +201,10 @@
 
 <h2>Making lists from variables with make_list</h2>
 <span>
-    123456789 becomes {{ 123456789|make_list  }}
+    123456789 becomes {{ 123456789|make_list }}
 </span>
 <span>
-    Hello becomes {{ "Hello"|make_list  }}
+    Hello becomes {{ "Hello"|make_list }}
 </span>
 
 
@@ -214,13 +216,13 @@
 
 <h2>Slicing a collections</h2>
 <span>
-    The first two of {{ numbers }} is {{ numbers|slice:":2"}}
+    The first two of {{ numbers }} is {{ numbers|slice:":2" }}
 </span>
 <span>
-    The last two of {{ numbers }} is {{ numbers|slice:"-2:"}}
+    The last two of {{ numbers }} is {{ numbers|slice:"-2:" }}
 </span>
 <span>
-    Elements 5 to 8 {{ numbers }} is {{ numbers|slice:"4:8"}}
+    Elements 5 to 8 {{ numbers }} is {{ numbers|slice:"4:8" }}
 </span>
 </body>
 </html>

@@ -3,8 +3,10 @@
 <head lang="en">
     <meta charset="UTF-8">
     <title>Strings & Templates</title>
-     <style>
-        span{ display: block; }
+    <style>
+        span {
+            display: block;
+        }
     </style>
 </head>
 <body>
@@ -18,12 +20,12 @@
 <h2>The uppercase, lowercase, capitalised and title tags</h2>
 <table>
     <thead>
-        <tr>
-            <th>lower</th>
-            <th>upper</th>
-            <th>capfirst</th>
-            <th>title</th>
-        </tr>
+    <tr>
+        <th>lower</th>
+        <th>upper</th>
+        <th>capfirst</th>
+        <th>title</th>
+    </tr>
     </thead>
     <tbody>
     <tr>
@@ -91,7 +93,7 @@
         The plural of colour is colour{{ 2 | pluralize }}.
     </li>
     <li>
-     The plural of person is pe{{ 2|pluralize:"rson,ople"}}.
+        The plural of person is pe{{ 2|pluralize:"rson,ople" }}.
     </li>
 </ul>
 
@@ -112,7 +114,7 @@
             {{ longmessage|truncatechars:20 }}
         </td>
         <td>
-        {{ longboldmessage|truncatechars_html:20 }}
+            {{ longboldmessage|truncatechars_html:20 }}
         </td>
         <td>
             {{ longmessage|truncatewords:3 }}
@@ -147,7 +149,7 @@
         {% templatetag openvariable %} {% templatetag closevariable %}
     </li>
     <li>
-        {% templatetag openbrace%} {% templatetag closebrace %}
+        {% templatetag openbrace %} {% templatetag closebrace %}
     </li>
     <li>
         {% templatetag opencomment %} {% templatetag closecomment %}
@@ -157,7 +159,7 @@
 
 <h2>The verbatim is the raw or @ of template strings</h2>
 {% verbatim %}
-    {{this will output}}{%  as it nothing has happened %}
+{{this will output}}{% as it nothing has happened %}
 {% endverbatim %}
 
 

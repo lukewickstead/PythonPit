@@ -25,6 +25,7 @@ def print_data():
 def save_abstract_base_child(name, age):
     return AbstractBaseChild.objects.get_or_create(age=age, defaults={"name": name})[0]
 
+
 # Execution
 if __name__ == '__main__':
     populate()

@@ -1,5 +1,4 @@
 from django.core.urlresolvers import reverse
-
 from django.test import TestCase
 
 from home import views as home_views

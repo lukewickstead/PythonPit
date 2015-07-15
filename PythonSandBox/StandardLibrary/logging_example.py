@@ -21,6 +21,7 @@ def do_log_example():
     logging.error('Error')
     logging.critical('Critical Error')
 
+
 # These should only be set once.
 
 # Setting report level

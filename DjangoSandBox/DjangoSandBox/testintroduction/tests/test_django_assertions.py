@@ -3,6 +3,7 @@ from django.test import TestCase
 
 from viewsintroduction.models import PhoneAddress
 
+
 # A few assertions which have not been explored in the other tests
 # Reference:
 # https://docs.djangoproject.com/en/1.8/topics/testing/tools/#assertions

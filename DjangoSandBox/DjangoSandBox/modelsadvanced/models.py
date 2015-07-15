@@ -6,6 +6,7 @@ from django.core.exceptions import ValidationError
 from django.core.validators import MinValueValidator, MaxValueValidator, RegexValidator, MinLengthValidator, \
     MaxLengthValidator
 
+
 #
 # Examples of joins, inheritance and validation
 #

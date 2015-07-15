@@ -5,6 +5,7 @@ from django.db.models import Q, F
 from ...populations.PopulatePersonByConstructor import PopulatePersonByConstructor
 from ...models import Person, OPTION_SEX_FEMALE, OPTION_SEX_MALE
 
+
 # Reference:
 # https://docs.djangoproject.com/en/1.8/ref/models/querysets
 # https://docs.djangoproject.com/en/1.8/topics/db/queries

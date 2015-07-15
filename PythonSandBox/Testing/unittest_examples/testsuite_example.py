@@ -20,6 +20,7 @@ def my_test_suite():
 
     return TestSuite([suite_one, suite_two])
 
+
 # Run the test suite
 if __name__ == '__main__':
     TextTestRunner().run(my_test_suite())

@@ -41,4 +41,3 @@ class PhoneContact(Model):
 
     def get_absolute_url(self):
         return reverse('viewsintroduction:contact', args=[self.id])
-

@@ -35,6 +35,7 @@ def save_dog(name, owner):
 def save_man(name):
     return Man.objects.get_or_create(name=name)[0]
 
+
 # Execution
 if __name__ == '__main__':
     populate()

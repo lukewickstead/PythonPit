@@ -4,14 +4,17 @@
     <meta charset="UTF-8">
     <title>Date, Time & Templates</title>
 </head>
-    <style>
-        span{ display: block; }
-    </style>
+<style>
+    span {
+        display: block;
+    }
+</style>
 <body>
 
 <h1>Dates, Times & Templates</h1>
+
 <h2>The now keyword</h2>
-It is: {% now "c"  %}
+It is: {% now "c" %}
 
 <h2>Any date formatter can be used</h2>
 {# Can take any formatters defined for date#}
@@ -35,15 +38,15 @@ It is {% now "f A jS \o\f F Y " %}
 </ul>
 
 <h2>The date and time filter</h2>
-    {{ when|date:"D d M Y" }} {{ when|time:"H:i" }}
+{{ when|date:"D d M Y" }} {{ when|time:"H:i" }}
 
 
 <h2>The time since and time until</h2>
 <span>
-    {{ yesterday }} since {{ when }} = {{ yesterday|timesince:when}}
+    {{ yesterday }} since {{ when }} = {{ yesterday|timesince:when }}
 </span>
 <span>
-    {{ when }} until {{ tomorrow }} = {{ when|timesince:tomorrow}}
+    {{ when }} until {{ tomorrow }} = {{ when|timesince:tomorrow }}
 </span>
 </body>
 </html>

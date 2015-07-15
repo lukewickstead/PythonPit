@@ -3,6 +3,7 @@ from datetime import timedelta
 from django.shortcuts import render
 from django.utils import timezone
 
+
 # Good References:
 # https://docs.djangoproject.com/en/1.7/ref/templates/builtins
 
@@ -89,7 +90,6 @@ def includes(request):
 
 
 def debug(request):
-
     context = {
         'request': request
     }
@@ -102,7 +102,6 @@ def static_files(request):
 
 
 def escaping(request):
-
     context = {
         'toescape': "1 is < 2"
     }

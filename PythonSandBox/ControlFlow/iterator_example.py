@@ -13,6 +13,8 @@ print(next(it))
 print(next(it))
 
 print("\n*** A Simple Iterator Class")
+
+
 # Simply write __iter__ and __next__
 
 
@@ -36,6 +38,8 @@ for x in MyRangeClass(1, 3):
     print(x)
 
 print("\n*** Yield Keyword")
+
+
 # Generates __iter()__ and __next__ automatically
 
 

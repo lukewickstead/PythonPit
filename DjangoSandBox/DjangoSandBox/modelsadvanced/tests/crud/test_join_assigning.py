@@ -4,6 +4,7 @@
 # https://docs.djangoproject.com/en/1.8/topics/db/examples/one_to_one/
 
 from unittest import TestCase
+
 from ...models import Parent, Child, Author, Book
 
 

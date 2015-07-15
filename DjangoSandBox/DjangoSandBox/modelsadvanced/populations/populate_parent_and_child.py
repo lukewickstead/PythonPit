@@ -34,6 +34,7 @@ def save_child(name, a_parent):
 
     return Child.objects.get_or_create(name=name, defaults={'parent': a_parent})[0]
 
+
 # Execution
 if __name__ == '__main__':
     populate()

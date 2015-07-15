@@ -27,6 +27,7 @@ def print_data():
 def save_multi_table_base_child(name, age):
     return MultiTableBaseChild.objects.get_or_create(age=age, defaults={"name": name})[0]
 
+
 # Execution
 if __name__ == '__main__':
     populate()

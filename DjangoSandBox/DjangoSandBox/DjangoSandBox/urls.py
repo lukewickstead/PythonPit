@@ -13,7 +13,6 @@ from authmodel import urls as authmodel_urls
 from errorsandlogging import urls as errorsandlogging_urls
 from sessionsandcookies import urls as sessionsandcookies_urls
 
-
 urlpatterns = \
     patterns('',
              url(r'^$', include(home_urls, namespace="home")),

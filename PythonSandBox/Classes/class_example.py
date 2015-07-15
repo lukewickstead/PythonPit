@@ -29,6 +29,7 @@ class Person:
     def __str__(self):
         return '{0} is {1} years old. Is human = {2}'.format(self.Name, self.Age, self.IsHuman)
 
+
 # Creating an instance of a class is used with the class name; passing in any required parameters:
 
 print("\n*** Classes")

@@ -37,6 +37,7 @@ def save_book(name, author):
     a_book = Book.objects.get_or_create(name=name)[0]
     a_book.authors.add(author)
 
+
 # Execution
 if __name__ == '__main__':
     populate()
