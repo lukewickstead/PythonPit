@@ -32,6 +32,12 @@ class TestHelloworldUrls(TestCase):
         self.assertEqual('/template/', reverse('template'))
         self.assertEqual('/model/', reverse('model'))
         self.assertEqual('/template_loader/', reverse('loader'))
+
+
+class TestErrorsAndLoggingdUrls(TestCase):
+    urls = 'errorsandlogging.urls'
+
+    def test_reverse(self):
         self.assertEqual('/errors/post_or_get/', reverse('error_if_not_get_or_post'))
         self.assertEqual('/errors/404/', reverse('error_as_404'))
         self.assertEqual('/errors/custom_404/', reverse('error_as_custom_404'))

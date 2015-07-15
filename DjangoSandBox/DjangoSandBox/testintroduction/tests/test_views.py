@@ -22,7 +22,7 @@ class TestFunctionView(TestCase):
 
         self.assertContains(response, '<a href="/helloworld/index/">Hello World</a>')
         self.assertContains(response, '<a href="/templatesintroduction/index">Templates</a>')
-        self.assertContains(response, '<a href="/formsintroduction/basic/">Forms</a>')
+        self.assertContains(response, '<a href="/formsintroduction/">Forms</a>')
         self.assertContains(response, '<a href="/viewsintroduction/contact/list">Views</a>')
 
 
@@ -52,7 +52,7 @@ class TestClassView(TestCase):
         self.assertTemplateUsed(response, template_name='viewsintroduction/phoneaddresslist.html')
 
         self.assertEqual(0, len(response.context["phoneaddress_list"]))
-        self.assertContains(response, '<tr><td colspan="6">There are no addresses</td></tr>')
+        self.assertContains(response, 'There are no addresses')
 
     def test_with_one_record(self):
         an_address = PhoneAddress(number=1, street_name="A", city="A City")
@@ -83,25 +83,25 @@ class TestClassView(TestCase):
 
 class Test404Error(TestCase):
     def test_404_error_is_raised(self):
-        response = self.client.get(reverse("helloworld:error_as_404"))
+        response = self.client.get(reverse("errorsandlogging:error_as_404"))
         self.assertEqual(404, response.status_code)
 
 
 class TestNotAllowed(TestCase):
     def test_not_allowed(self):
-        response = self.client.get(reverse("helloworld:not_allowed"))
+        response = self.client.get(reverse("errorsandlogging:not_allowed"))
 
         self.assertEqual(405, response.status_code)
 
 
 class TestOnlyPost(TestCase):
     def test_raises_error_on_get(self):
-        response = self.client.get(reverse("helloworld:error_if_not_post"))
+        response = self.client.get(reverse("errorsandlogging:error_if_not_post"))
 
         self.assertEqual(405, response.status_code)
 
     def test_all_ok_on_post(self):
-        response = self.client.post(reverse("helloworld:error_if_not_post"), {'name': 'Jim'})
+        response = self.client.post(reverse("errorsandlogging:error_if_not_post"), {'name': 'Jim'})
 
         self.assertEqual(200, response.status_code)
         self.assertContains(response, "{0}, this can only be called with a post".format("Jim"))
