@@ -49,7 +49,9 @@ INSTALLED_APPS = (
     'viewsintroduction',
     'formsintroduction',
     'testintroduction',
-    'authmodel'
+    'authmodel',
+    'errorsandlogging',
+    'sessionsandcookies'
 )
 
 MIDDLEWARE_CLASSES = (
