@@ -13,7 +13,7 @@ class UserForm(Form):
         super(UserForm, self).clean()
 
         password = self.cleaned_data.get('password')
-        password_confirm = self.cleaned_data.get('password_bis')
+        password_confirm = self.cleaned_data.get('password_confirm')
 
         if password and password_confirm and password != password_confirm:
             raise ValidationError("Passwords do not match")
