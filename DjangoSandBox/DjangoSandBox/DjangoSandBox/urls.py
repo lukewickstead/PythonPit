@@ -4,14 +4,15 @@
 from django.conf.urls import patterns, include, url
 from django.contrib import admin
 
-from helloworld import urls as helloworld_urls
 from home import urls as home_urls
-from templatesintroduction import urls as templatesintroduction_urls
+from authmodel import urls as authmodel_urls
+from helloworld import urls as helloworld_urls
+from ajaxintroduction import urls as ajax_urls
+from errorsandlogging import urls as errorsandlogging_urls
 from viewsintroduction import urls as viewsintroduction_urls
 from formsintroduction import urls as formsintroduction_urls
-from authmodel import urls as authmodel_urls
-from errorsandlogging import urls as errorsandlogging_urls
 from sessionsandcookies import urls as sessionsandcookies_urls
+from templatesintroduction import urls as templatesintroduction_urls
 
 urlpatterns = \
     patterns('',
@@ -19,6 +20,7 @@ urlpatterns = \
              url(r'^admin/', include(admin.site.urls)),
              url(r'^home/', include(home_urls, namespace="home")),
              url(r'^auth/', include(authmodel_urls, namespace="auth")),
+             url(r'^ajax/', include(ajax_urls, namespace="ajax")),
              url(r'^helloworld/', include(helloworld_urls, namespace="helloworld")),
              url(r'^errorsandlogging/', include(errorsandlogging_urls, namespace="errorsandlogging")),
              url(r'^viewsintroduction/', include(viewsintroduction_urls, namespace="viewsintroduction")),

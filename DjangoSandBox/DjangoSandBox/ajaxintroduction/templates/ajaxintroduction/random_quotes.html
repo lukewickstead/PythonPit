@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Daily Quote!</title>
+
+    <style>
+        span {
+            display: block;
+        }
+
+        span span {
+            display: inline;
+        }
+    </style>
+
+    {% load staticfiles %}
+
+    <script src="{% static "js/jquery-2.1.4.js" %}"></script>
+    <script src="{% static "js/jquery.cookie.js" %}"></script>
+    <script src="{% static "ajaxintroduction/js/ajax-example.js" %}"></script>
+
+</head>
+<body>
+
+<h1>AJAX Examples</h1>
+
+
+<h2>Get Random Quote:</h2>
+<span>
+    <button type="button" id="getquote">Get:</button>
+    <span id="quote"></span><span id="author"></span>
+</span>
+
+
+<h2>Get Quotes By Author:</h2>
+<span>
+    <select id="authors" title="Fpop dfic">
+        <option value="all">All</option>
+        {% for author in authors %}
+            <option value="{{ author }}">
+                {{ author }}
+            </option>
+        {% endfor %}
+    </select>
+    <button type="button" id="getAuthorQuotes">Get</button>
+</span>
+<span id="quotesbyauthor"></span>
+
+
+<h2>Create Quote:</h2>
+<form method="post" action="">
+    {% csrf_token %}
+    <table>
+        <tr>
+            <th>Quote</th>
+            <th>Author</th>
+        </tr>
+        <tr>
+            <td><input type="text" id="txtquote" title="Go fuck yourself"/></td>
+            <td><input type="text" id="txtauthor" title="Go fuck yourself again!!!"/></td>
+        </tr>
+    </table>
+    <button type="button" id="newquote">New Quote</button>
+</form>
+
+</body>
+</html>
