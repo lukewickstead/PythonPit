@@ -35,7 +35,7 @@
 
 <h2>Get Quotes By Author:</h2>
 <span>
-    <select id="authors" title="Fpop dfic">
+    <select id="authors" title="">
         <option value="all">All</option>
         {% for author in authors %}
             <option value="{{ author }}">
@@ -57,8 +57,8 @@
             <th>Author</th>
         </tr>
         <tr>
-            <td><input type="text" id="txtquote" title="Go fuck yourself"/></td>
-            <td><input type="text" id="txtauthor" title="Go fuck yourself again!!!"/></td>
+            <td><input type="text" id="txtquote" title=""/></td>
+            <td><input type="text" id="txtauthor" title=""/></td>
         </tr>
     </table>
     <button type="button" id="newquote">New Quote</button>
